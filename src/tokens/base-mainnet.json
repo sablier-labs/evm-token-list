@@ -376,6 +376,14 @@
     "symbol": "USDS"
   },
   {
+    "address": "0xa4f134de49D80e83D2dE6e73845c506BDB3b9D59",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SHADES.png",
+    "name": "SHADES",
+    "symbol": "SHADES"
+  },
+  {
     "address": "0x767A739D1A152639e9Ea1D8c1BD55FDC5B217D7f",
     "chainId": 8453,
     "decimals": 18,
