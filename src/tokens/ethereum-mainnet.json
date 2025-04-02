@@ -2488,5 +2488,13 @@
     "logoURI": "https://files.sablier.com/tokens/FORM.png",
     "name": "Form",
     "symbol": "FORM"
+  },
+  {
+    "address": "0xc1f33e0cf7e40a67375007104b929e49a581bafe",
+    "chainId": 1,
+    "decimals": 9,
+    "logoURI": "https://files.sablier.com/tokens/SPOT.png",
+    "name": "Spot",
+    "symbol": "SPOT"
   }
 ]
