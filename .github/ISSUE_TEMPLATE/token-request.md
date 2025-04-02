@@ -1,18 +1,19 @@
 ---
+about: Request token listing in the Sablier UI
+assignees: "maxdesalle"
 name: Token Request
-about: Request a token addition
 title: "Add {TOKEN_SYMBOL}: {TOKEN_NAME}"
-labels: token request
-assignees: ""
 ---
 
-**Please provide the following information for your token.**
+<!-- NOTE: native tokens (e.g. ETH) are not supported. If you want to use a native token with Sablier, you need to provide a Wrapped ERC-20 version of the token, e.g., WETH. -->
 
-- Token Address (**HAS** to be [checksummed](https://ethsum.netlify.app/)):
+<!-- Please provide the following information for your token. -->
+
+- Token Address (**MUST** be [checksummed](https://ethsum.netlify.app/)):
 - Token Name (from contract):
 - Token Decimals (from contract):
 - Token Symbol (from contract):
-- Token Icon (**HAS** to be in PNG, under 200x200):
+- Token Icon (**MUST** be in PNG, under 200x200):
 - Chain:
-- Official project link:
-- CoinGecko/CoinMarketCap token page:
+- Official project website:
+- CoinGecko/CoinMarketCap page:
