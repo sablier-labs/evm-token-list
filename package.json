@@ -34,8 +34,8 @@
   "repository": "github.com/sablier-labs/evm-token-list",
   "scripts": {
     "build": "rm -rf build/tokenlist.json && node src/write.js > build/tokenlist.json",
-    "prettier:check": "prettier --check \"**/*.{html,js,json,md,yml}\" .",
-    "prettier:fix": "prettier --write \"**/*.{html,js,json,md,yml}\" .",
+    "prettier:check": "prettier --cache --cache-location ./node_modules/.cache/prettier/.prettier-cache --check \"**/*.{html,js,json,md,yml}\" .",
+    "prettier:fix": "prettier --cache --cache-location ./node_modules/.cache/prettier/.prettier-cache --write \"**/*.{html,js,json,md,yml}\" .",
     "prepublishOnly": "bun run test && bun run build",
     "test": "mocha"
   }
