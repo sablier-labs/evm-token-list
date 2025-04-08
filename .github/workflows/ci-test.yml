@@ -23,7 +23,9 @@ jobs:
           path: node_modules
 
       - name: "Install Bun"
-        uses: "oven-sh/setup-bun@v1"
+        uses: "oven-sh/setup-bun@v2"
+        with:
+          bun-version: "latest"
 
       - name: "Install the Node.js dependencies"
         run: "bun install --frozen-lockfile"
