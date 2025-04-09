@@ -1,6 +1,7 @@
 ---
 about: Request token listing in the Sablier UI
 assignees: "maxdesalle"
+labels: ["token-request"]
 name: Token Request
 title: "Add {TOKEN_SYMBOL}: {TOKEN_NAME}"
 ---
