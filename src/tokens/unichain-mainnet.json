@@ -1,0 +1,10 @@
+[
+  {
+    "address": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+    "chainId": 130,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDC.png",
+    "name": "USDC",
+    "symbol": "USDC"
+  }
+]

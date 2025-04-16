@@ -22,10 +22,12 @@ const modeMainnet = require("./tokens/mode-mainnet.json");
 const polygonMainnet = require("./tokens/polygon-mainnet.json");
 const roninMainnet = require("./tokens/ronin-mainnet.json");
 const roninTestnet = require("./tokens/ronin-testnet.json");
-const scrollTestnet = require("./tokens/scroll-mainnet.json");
+const scrollMainnet = require("./tokens/scroll-mainnet.json");
+const seiMainnet = require("./tokens/sei-mainnet.json");
 const superseedMainnet = require("./tokens/superseed-mainnet.json");
 const tangleMainnet = require("./tokens/tangle-mainnet.json");
 const ultraMainnet = require("./tokens/ultra-mainnet.json");
+const unichainMainnet = require("./tokens/unichain-mainnet.json");
 const xdcMainnet = require("./tokens/xdc-mainnet.json");
 const zksyncMainnet = require("./tokens/zksync-mainnet.json");
 
@@ -67,10 +69,12 @@ module.exports = function buildList() {
       ...polygonMainnet,
       ...roninMainnet,
       ...roninTestnet,
-      ...scrollTestnet,
+      ...seiMainnet,
+      ...scrollMainnet,
       ...superseedMainnet,
       ...tangleMainnet,
       ...ultraMainnet,
+      ...unichainMainnet,
       ...xdcMainnet,
       ...zksyncMainnet,
     ]
