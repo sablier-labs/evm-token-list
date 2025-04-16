@@ -1,5 +1,13 @@
 [
   {
+    "address": "0xaaa843fb2916c0b57454270418e121c626402aaa",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/AAA.png",
+    "name": "Arcadia",
+    "symbol": "AAA"
+  },
+  {
     "address": "0xba8cd87120aca631f59231f9fd6c5469bbee3440",
     "chainId": 8453,
     "decimals": 18,
