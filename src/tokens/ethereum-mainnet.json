@@ -90,6 +90,14 @@
     "symbol": "AUDD"
   },
   {
+    "address": "0x1C2E03b7081157048E04C13176E98160e941C422",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/AUTOZ.png",
+    "name": "Aurobots Network",
+    "symbol": "AUTOZ"
+  },
+  {
     "address": "0xf477AC7719e2e659001455cDDA0cc8f3aD10b604",
     "chainId": 1,
     "decimals": 18,
