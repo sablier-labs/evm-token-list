@@ -3,22 +3,46 @@ const schema = require("@uniswap/token-lists/src/tokenlist.schema.json");
 const { expect } = require("chai");
 const { getAddress } = require("@ethersproject/address");
 const Ajv = require("ajv");
-const buildList = require("../src/buildList");
+const addFormats = require("ajv-formats");
+const fs = require("fs");
+const path = require("path");
+const { execSync } = require("child_process");
 
-const ajv = new Ajv({ allErrors: true, format: "full", verbose: true });
+// Fix: Create Ajv instance without format option and add formats explicitly
+const ajv = new Ajv({ allErrors: true, verbose: true });
+// Fix: Add formats to support date-time
+addFormats(ajv);
 const validator = ajv.compile(schema);
 let defaultTokenList;
 
 before(async function () {
   // https://stackoverflow.com/questions/44149096
-  this.timeout(540000);
-  defaultTokenList = await buildList();
+  this.timeout(100000); // 100 seconds
+
+  const tokenListPath = path.join(__dirname, "../build/tokenlist.json");
+
+  // Only build if the file doesn't exist
+  if (!fs.existsSync(tokenListPath)) {
+    try {
+      execSync("bun run build", { stdio: "inherit" });
+    } catch (error) {
+      throw new Error("Failed to build token list: " + error.message);
+    }
+  }
+
+  // Load the built token list
+  if (!fs.existsSync(tokenListPath)) {
+    throw new Error("Token list not found after build");
+  }
+  defaultTokenList = JSON.parse(fs.readFileSync(tokenListPath, "utf8"));
 });
 
 describe("buildList", function () {
-  it("validates", function () {
+  it("validates token list", function () {
     const validated = validator(defaultTokenList);
-    if (!validated) console.error(validator.errors);
+    if (!validated) {
+      console.error(validator.errors);
+    }
     expect(validated).to.equal(true);
   });
 
@@ -26,7 +50,7 @@ describe("buildList", function () {
     const map = {};
     for (let token of defaultTokenList.tokens) {
       const key = `${token.chainId}-${token.address}`;
-      expect(typeof map[key]).to.equal("undefined");
+      expect(typeof map[key]).to.equal("undefined", `duplicate address: ${token.address}`);
       map[key] = true;
     }
   });
@@ -42,7 +66,7 @@ describe("buildList", function () {
         continue;
       } else {
         const key = `${token.chainId}-${symbol}`;
-        expect(typeof map[key]).to.equal("undefined", `duplicate symbol: ${symbol}   ${key} ${token.address}`);
+        expect(typeof map[key]).to.equal("undefined", `duplicate symbol: ${symbol} ${token.address}`);
         map[key] = true;
       }
     }

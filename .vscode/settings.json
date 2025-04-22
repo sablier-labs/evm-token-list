@@ -1,0 +1,13 @@
+{
+  "biome.enabled": true,
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "always",
+    "source.organizeImports.biome": "always"
+  },
+  "[html][md][yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript][json][jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
+}

@@ -1,8 +1,2 @@
 # directories
 node_modules
-
-# files
-.pnp.*
-build/**/*.json
-package-lock.json
-pnpm-lock.yaml
