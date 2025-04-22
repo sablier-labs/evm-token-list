@@ -56,5 +56,5 @@ jobs:
 
       - name: "Add summary"
         run: |
-          echo "## CI Token Decimals result" >> $GITHUB_STEP_SUMMARY
+          echo "## CI Decimals result" >> $GITHUB_STEP_SUMMARY
           echo "✅ Passed" >> $GITHUB_STEP_SUMMARY

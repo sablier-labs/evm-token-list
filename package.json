@@ -10,33 +10,31 @@
     "url": "https://github.com/sablier-labs/evm-token-list/issues"
   },
   "devDependencies": {
-    "@ethersproject/address": "^5.0.2",
+    "@biomejs/biome": "1.9.4",
+    "@ethersproject/address": "^5.8.0",
+    "@uniswap/token-list-bridge-utils": "2.10.0",
     "@uniswap/token-lists": "^1.0.0-beta.34",
-    "ajv": "^6.12.3",
-    "chai": "^4.2.0",
-    "dts-cli": "^1.4.0",
-    "mocha": "^8.0.1",
-    "prettier": "^2.8.8",
-    "prettier-plugin-sort-json": "2.0.0",
-    "@uniswap/token-list-bridge-utils": "2.10.0"
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "chai": "^5.2.0",
+    "dts-cli": "^2.0.5",
+    "mocha": "^11.1.0",
+    "prettier": "^3.5.3"
   },
   "homepage": "https://github.com/sablier-labs/evm-token-list#readme",
-  "keywords": [
-    "ethereum",
-    "evm",
-    "erc20",
-    "evm",
-    "sablier",
-    "token",
-    "tokenlist"
-  ],
+  "keywords": ["ethereum", "evm", "erc20", "evm", "sablier", "token", "tokenlist"],
   "license": "GPL-3.0-or-later",
   "repository": "github.com/sablier-labs/evm-token-list",
   "scripts": {
+    "biome:check": "biome check .",
+    "biome:write": "biome check --write .",
     "build": "rm -rf build/tokenlist.json && node src/write.js > build/tokenlist.json",
-    "prettier:check": "prettier --cache --check \"**/*.{html,js,json,md,yml}\" .",
-    "prettier:fix": "prettier --cache --write \"**/*.{html,js,json,md,yml}\" .",
+    "clean": "rm -rf dist",
+    "check": "bun run biome:check && bun run prettier:check",
+    "format": "bun run biome:write && bun run prettier:write",
     "prepublishOnly": "bun run test && bun run build",
+    "prettier:check": "prettier --cache --check \"**/*.{html,md,yml}\"",
+    "prettier:write": "prettier --cache --write \"**/*.{html,md,yml}\"",
     "test": "mocha"
   }
 }
