@@ -6,5 +6,13 @@
     "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
     "name": "Wrapped Ether",
     "symbol": "WETH"
+  },
+  {
+    "address": "0x6EA1fFcbD7F5D210dB07D9E773862B0512fA219B",
+    "chainId": 5330,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SUPR.png",
+    "name": "Superseed",
+    "symbol": "SUPR"
   }
 ]
