@@ -964,6 +964,14 @@
     "symbol": "JPEG"
   },
   {
+    "address": "0xDc6ad9b5F4257c620FB103226A19808f7Dd25BCc",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/JD.png",
+    "name": "Jungle Defense",
+    "symbol": "JD"
+  },
+  {
     "address": "0xf3768D6e78E65FC64b8F12ffc824452130BD5394",
     "chainId": 1,
     "decimals": 18,
