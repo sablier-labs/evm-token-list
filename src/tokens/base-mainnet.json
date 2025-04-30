@@ -208,6 +208,14 @@
     "symbol": "FUKU"
   },
   {
+    "address": "0xDc6ad9b5F4257c620FB103226A19808f7Dd25BCc",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/JD.png",
+    "name": "Jungle Defense",
+    "symbol": "JD"
+  },
+  {
     "address": "0x4B69EA52F8cb02b53613Fa1E24F2579176C44C57",
     "chainId": 8453,
     "decimals": 18,
