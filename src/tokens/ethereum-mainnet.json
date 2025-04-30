@@ -2508,7 +2508,7 @@
   {
     "address": "0x8258Df28cBaa51199c0a8B7E1DE1D669E4bE9Fc1",
     "chainId": 1,
-    "decimals": 18,
+    "decimals": 9,
     "logoURI": "https://files.sablier.com/tokens/ZOD.png",
     "name": "Zodor",
     "symbol": "ZOD"
