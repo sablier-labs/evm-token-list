@@ -16,6 +16,14 @@
     "symbol": "1INCH"
   },
   {
+    "address": "0xb0415D55f2C87b7f99285848bd341C367FeAc1ea",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/1R0R.png",
+    "name": "R0AR TOKEN",
+    "symbol": "1R0R"
+  },
+  {
     "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
     "chainId": 1,
     "decimals": 18,
