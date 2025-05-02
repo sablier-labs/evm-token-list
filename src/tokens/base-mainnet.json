@@ -80,6 +80,14 @@
     "symbol": "COIM"
   },
   {
+    "address": "0xe2B76f98fB5dC10A9Aed0F4A4a854De325740019",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/DPHN.png",
+    "name": "Dolphin",
+    "symbol": "DPHN"
+  },
+  {
     "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
     "chainId": 8453,
     "decimals": 6,
