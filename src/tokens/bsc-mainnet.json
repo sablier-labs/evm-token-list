@@ -64,6 +64,14 @@
     "symbol": "ETH"
   },
   {
+    "address": "0xB0b84D294e0C75A6abe60171b70edEb2EFd14A1B",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SLISBNB.png",
+    "name": "Lista Staked BNB",
+    "symbol": "SLISBNB"
+  },
+  {
     "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
     "chainId": 56,
     "decimals": 18,
