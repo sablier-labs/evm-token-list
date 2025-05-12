@@ -8,6 +8,14 @@
     "symbol": "AAA"
   },
   {
+    "address": "0xD3b0b58eC9516e4b875a075328E2CB059d4d54dB",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ARCHAI.png",
+    "name": "ArchAI",
+    "symbol": "ARCHAI"
+  },
+  {
     "address": "0xba8cd87120aca631f59231f9fd6c5469bbee3440",
     "chainId": 8453,
     "decimals": 18,
