@@ -2514,6 +2514,14 @@
     "symbol": "SPOT"
   },
   {
+    "address": "0x6A43795941113c2F58EB487001f4f8eE74b6938A",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/STABUL.png",
+    "name": "Stabull Finance",
+    "symbol": "STABUL"
+  },
+  {
     "address": "0x8258Df28cBaa51199c0a8B7E1DE1D669E4bE9Fc1",
     "chainId": 1,
     "decimals": 9,
