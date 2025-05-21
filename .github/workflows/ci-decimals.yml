@@ -25,6 +25,7 @@ env:
   RONIN_MAINNET_RPC_URL: "https://ronin.drpc.org"
   RONIN_TESTNET_RPC_URL: "https://saigon-testnet.roninchain.com/rpc"
   SCROLL_MAINNET_RPC_URL: "https://scroll-mainnet.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
+  SOPHON_MAINNET_RPC_URL: "https://rpc.sophon.xyz"
   SUPERSEED_MAINNET_RPC_URL: "https://mainnet.superseed.xyz"
   TANGLE_MAINNET_RPC_URL: "https://rpc.tangle.tools"
   ULTRA_MAINNET_RPC_URL: "https://evm.ultra.eosusa.io"

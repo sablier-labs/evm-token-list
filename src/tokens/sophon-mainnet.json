@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x6386dA73545ae4E2B2E0393688fA8B65Bb9a7169",
+    "chainId": 50104,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDT.png",
+    "name": "Tether USD",
+    "symbol": "USDT"
+  },
+  {
+    "address": "0xF1f9E08a0818594FDe4713AE0Db1E46672Ca960E",
+    "chainId": 50104,
+    "decimals": 8,
+    "logoURI": "https://files.sablier.com/tokens/WBTC.png",
+    "name": "Wrapped BTC",
+    "symbol": "WBTC"
+  },
+  {
+    "address": "0xeCcbb9360d235548473Cb8C752735F68e652439B",
+    "chainId": 50104,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SDAI.png",
+    "name": "Savings Dai",
+    "symbol": "SDAI"
+  }
+]

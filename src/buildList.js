@@ -24,6 +24,7 @@ const roninMainnet = require("./tokens/ronin-mainnet.json");
 const roninTestnet = require("./tokens/ronin-testnet.json");
 const scrollMainnet = require("./tokens/scroll-mainnet.json");
 const seiMainnet = require("./tokens/sei-mainnet.json");
+const sophonMainnet = require("./tokens/sophon-mainnet.json");
 const superseedMainnet = require("./tokens/superseed-mainnet.json");
 const tangleMainnet = require("./tokens/tangle-mainnet.json");
 const ultraMainnet = require("./tokens/ultra-mainnet.json");
@@ -71,6 +72,7 @@ module.exports = function buildList() {
       ...roninTestnet,
       ...seiMainnet,
       ...scrollMainnet,
+      ...sophonMainnet,
       ...superseedMainnet,
       ...tangleMainnet,
       ...ultraMainnet,
