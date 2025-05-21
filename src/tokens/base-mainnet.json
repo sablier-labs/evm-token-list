@@ -446,5 +446,13 @@
     "logoURI": "https://files.sablier.com/tokens/KAITO.png",
     "name": "KAITO",
     "symbol": "KAITO"
+  },
+  {
+    "address": "0x6C7ebB64E258F5712EEeC83CEaf41c3dcbb534B1",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/VAIN.png",
+    "name": "Vainguard by Virtuals",
+    "symbol": "VAIN"
   }
 ]
