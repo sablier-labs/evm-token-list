@@ -2528,5 +2528,13 @@
     "logoURI": "https://files.sablier.com/tokens/ZOD.png",
     "name": "Zodor",
     "symbol": "ZOD"
+  },
+  {
+    "address": "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/GLM.png",
+    "name": "Golem Network Token",
+    "symbol": "GLM"
   }
 ]
