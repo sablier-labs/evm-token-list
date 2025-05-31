@@ -1,49 +1,13 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "extends": ["@sablier/devkit/biome"],
   "files": {
-    "ignoreUnknown": false,
-    "ignore": ["/dist/"],
-    "include": ["*.json", "*.jsonc", "*.ts"],
-    "maxSize": 5242880 // 5MB
-  },
-  "formatter": {
-    "enabled": true,
-    "indentStyle": "space",
-    "lineWidth": 120
-  },
-  "javascript": {
-    "formatter": {
-      "quoteStyle": "double"
-    }
-  },
-  "linter": {
-    "enabled": true,
-    "rules": {
-      "correctness": {
-        "noUnusedImports": "error",
-        "noUnusedVariables": "error"
-      },
-      "recommended": true
-    }
-  },
-  "organizeImports": {
-    "enabled": true
+    "includes": ["**/*.{html,js,json,jsonc}", "!build/tokenlist.json"]
   },
   "overrides": [
     {
-      "include": ["tests/*"],
-      "linter": {
-        "rules": {
-          "suspicious": {
-            "noFocusedTests": "off"
-          }
-        }
-      }
+      "assist": { "actions": { "source": { "useSortedKeys": "on" } } },
+      "includes": ["**/*.{json,json5,jsonc}", "!package.json"]
     }
-  ],
-  "vcs": {
-    "clientKind": "git",
-    "enabled": true,
-    "useIgnoreFile": true
-  }
+  ]
 }

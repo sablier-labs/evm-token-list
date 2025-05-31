@@ -4,9 +4,9 @@ const { expect } = require("chai");
 const { getAddress } = require("@ethersproject/address");
 const Ajv = require("ajv");
 const addFormats = require("ajv-formats");
-const fs = require("fs");
-const path = require("path");
-const { execSync } = require("child_process");
+const fs = require("node:fs");
+const path = require("node:path");
+const { execSync } = require("node:child_process");
 
 // Fix: Create Ajv instance without format option and add formats explicitly
 const ajv = new Ajv({ allErrors: true, verbose: true });
@@ -26,7 +26,7 @@ before(async function () {
     try {
       execSync("bun run build", { stdio: "inherit" });
     } catch (error) {
-      throw new Error("Failed to build token list: " + error.message);
+      throw new Error(`Failed to build token list: ${error.message}`);
     }
   }
 
@@ -37,8 +37,8 @@ before(async function () {
   defaultTokenList = JSON.parse(fs.readFileSync(tokenListPath, "utf8"));
 });
 
-describe("buildList", function () {
-  it("validates token list", function () {
+describe("buildList", () => {
+  it("validates token list", () => {
     const validated = validator(defaultTokenList);
     if (!validated) {
       console.error(validator.errors);
@@ -46,24 +46,23 @@ describe("buildList", function () {
     expect(validated).to.equal(true);
   });
 
-  it("contains no duplicate addresses", function () {
+  it("contains no duplicate addresses", () => {
     const map = {};
-    for (let token of defaultTokenList.tokens) {
+    for (const token of defaultTokenList.tokens) {
       const key = `${token.chainId}-${token.address}`;
       expect(typeof map[key]).to.equal("undefined", `duplicate address: ${token.address}`);
       map[key] = true;
     }
   });
 
-  it("contains no duplicate symbols", function () {
+  it("contains no duplicate symbols", () => {
     // manual override to approve certain tokens with duplicate symbols
     const approvedDuplicateSymbols = ["amp", "bank", "flx", "ichi", "rdnt", "slp", "usdc", "usds"];
 
     const map = {};
-    for (let token of defaultTokenList.tokens) {
-      let symbol = token.symbol.toLowerCase();
+    for (const token of defaultTokenList.tokens) {
+      const symbol = token.symbol.toLowerCase();
       if (approvedDuplicateSymbols.includes(symbol)) {
-        continue;
       } else {
         const key = `${token.chainId}-${symbol}`;
         expect(typeof map[key]).to.equal("undefined", `duplicate symbol: ${symbol} ${token.address}`);
@@ -72,16 +71,14 @@ describe("buildList", function () {
     }
   });
 
-  it("contains no duplicate names", function () {
+  it("contains no duplicate names", () => {
     // manual override to approve certain tokens with duplicate names
     const approvedDuplicateNames = ["Radiant", "USD Coin"];
 
     const map = {};
-    for (let token of defaultTokenList.tokens) {
-      let name = token.name;
-      if (approvedDuplicateNames.includes(name)) {
-        continue;
-      } else {
+    for (const token of defaultTokenList.tokens) {
+      const name = token.name;
+      if (approvedDuplicateNames.includes(name) === false) {
         const key = `${token.chainId}-${token.name.toLowerCase()}`;
         expect(typeof map[key]).to.equal("undefined", `duplicate name: ${token.name}`);
         map[key] = true;
@@ -89,13 +86,13 @@ describe("buildList", function () {
     }
   });
 
-  it("all addresses are valid and checksummed", function () {
-    for (let token of defaultTokenList.tokens) {
+  it("all addresses are valid and checksummed", () => {
+    for (const token of defaultTokenList.tokens) {
       expect(getAddress(token.address).toLowerCase()).to.eq(token.address.toLowerCase());
     }
   });
 
-  it("version matches package.json", function () {
+  it("version matches package.json", () => {
     expect(packageJson.version).to.match(/^\d+\.\d+\.\d+$/);
     expect(packageJson.version).to.equal(
       `${defaultTokenList.version.major}.${defaultTokenList.version.minor}.${defaultTokenList.version.patch}`,

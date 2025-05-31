@@ -68,13 +68,13 @@
     "decimals": 18,
     "extensions": {
       "bridgeInfo": {
+        "56": {
+          "tokenAddress": "0x7712da72127d5dD213B621497D6E4899d5989e5C"
+        },
         "137": {
           "tokenAddress": "0x44e3ae622c1570Dc6E492aDB8DE92d01cA923d26"
         },
         "42161": {
-          "tokenAddress": "0x7712da72127d5dD213B621497D6E4899d5989e5C"
-        },
-        "56": {
           "tokenAddress": "0x7712da72127d5dD213B621497D6E4899d5989e5C"
         },
         "59144": {
@@ -518,11 +518,11 @@
     "decimals": 8,
     "extensions": {
       "bridgeInfo": {
-        "42161": {
-          "tokenAddress": "0x050c24dbf1eec17babe5fc585f06116a259cc77a"
-        },
         "8453": {
           "tokenAddress": "0x12418783e860997eb99e8aCf682DF952F721cF62"
+        },
+        "42161": {
+          "tokenAddress": "0x050c24dbf1eec17babe5fc585f06116a259cc77a"
         }
       }
     },
@@ -608,11 +608,11 @@
     "decimals": 18,
     "extensions": {
       "bridgeInfo": {
-        "137": {
-          "tokenAddress": "0xB03E3b00BaF9954bF1604d09A4dbd5Cf88E1f695"
-        },
         "56": {
           "tokenAddress": "0xBdEAe1cA48894A1759A8374D63925f21f2Ee2639"
+        },
+        "137": {
+          "tokenAddress": "0xB03E3b00BaF9954bF1604d09A4dbd5Cf88E1f695"
         }
       }
     },
@@ -1132,19 +1132,19 @@
         "10": {
           "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
         },
+        "56": {
+          "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
+        },
         "137": {
+          "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
+        },
+        "8453": {
           "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
         },
         "42161": {
           "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
         },
         "43114": {
-          "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
-        },
-        "56": {
-          "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
-        },
-        "8453": {
           "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
         }
       }

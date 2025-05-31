@@ -37,16 +37,11 @@ const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 module.exports = function buildList() {
   const parsed = version.split(".");
   const l1List = {
-    name: "Sablier EVM Token List",
-    timestamp: new Date().toISOString(),
-    version: {
-      major: +parsed[0],
-      minor: +parsed[1],
-      patch: +parsed[2],
-    },
-    tags: {},
-    logoURI: "https://files.sablier.com/icon-180x180.png",
     keywords: ["sablier", "default"],
+    logoURI: "https://files.sablier.com/icon-180x180.png",
+    name: "Sablier EVM Token List",
+    tags: {},
+    timestamp: new Date().toISOString(),
     tokens: [
       ...ethereumMainnet,
       ...abstractMainnet,
@@ -87,6 +82,11 @@ module.exports = function buildList() {
         }
         return t1.chainId < t2.chainId ? -1 : 1;
       }),
+    version: {
+      major: +parsed[0],
+      minor: +parsed[1],
+      patch: +parsed[2],
+    },
   };
 
   return bridgeUtils.chainify(l1List);
