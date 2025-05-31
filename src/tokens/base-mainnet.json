@@ -454,5 +454,13 @@
     "logoURI": "https://files.sablier.com/tokens/VAIN.png",
     "name": "Vainguard by Virtuals",
     "symbol": "VAIN"
+  },
+  {
+    "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "chainId": 8453,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDC.png",
+    "name": "USD Coin",
+    "symbol": "USDC"
   }
 ]
