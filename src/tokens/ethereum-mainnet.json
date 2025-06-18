@@ -2536,5 +2536,13 @@
     "logoURI": "https://files.sablier.com/tokens/GLM.png",
     "name": "Golem Network Token",
     "symbol": "GLM"
+  },
+  {
+    "address": "0xfc60fc0145D7330e5abcFc52AF7B043a1cE18e7d",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/GVNR.png",
+    "name": "GVNR",
+    "symbol": "GVNR"
   }
 ]
