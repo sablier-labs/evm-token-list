@@ -2193,6 +2193,14 @@
     "symbol": "WEL"
   },
   {
+    "address": "0xF203Ca1769ca8e9e8FE1DA9D147DB68B6c919817",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/WNCG.png",
+    "name": "Wrapped Nine Chronicles Gold",
+    "symbol": "WNCG"
+  },
+  {
     "address": "0x7b66E84Be78772a3afAF5ba8c1993a1B5D05F9C2",
     "chainId": 1,
     "decimals": 18,
