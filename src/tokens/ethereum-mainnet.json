@@ -1162,6 +1162,14 @@
     "symbol": "MONAI"
   },
   {
+    "address": "0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/MOVE.png",
+    "name": "Movement Token",
+    "symbol": "MOVE"
+  },
+  {
     "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5",
     "chainId": 1,
     "decimals": 18,
