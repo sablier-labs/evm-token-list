@@ -24,6 +24,14 @@
     "symbol": "ITP"
   },
   {
+    "address": "0x24c91E5E9eb13E72Db41EBC5816Af7f259647B07",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/MYU.png",
+    "name": "Myceliyou",
+    "symbol": "MYU"
+  },
+  {
     "address": "0x02D4f76656C2B4f58430e91f8ac74896c9281Cb9",
     "chainId": 8453,
     "decimals": 18,
