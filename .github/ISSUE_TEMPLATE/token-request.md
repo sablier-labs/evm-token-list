@@ -10,11 +10,12 @@ title: "Add {TOKEN_SYMBOL}: {TOKEN_NAME}"
 
 <!-- Please provide the following information for your token. -->
 
-- Token Address (**MUST** be [checksummed](https://ethsum.netlify.app/)):
+- Token Address (**MUST** be [checksummed](https://ethsum.netlify.app/). We do NOT support unchecksummed addresses):
 - Token Name (from contract):
-- Token Decimals (from contract):
+- Token Decimals (from contract, PLEASE DOUBLE CHECK):
 - Token Symbol (from contract):
-- Token Icon (**MUST** be in PNG, under 200x200):
+- Token Icon (**MUST** be in PNG, under 200x200. We do support JPG):
+- Etherscan / Basescan / ... link:
 - Chain:
 - Official project website:
 - CoinGecko/CoinMarketCap page:
