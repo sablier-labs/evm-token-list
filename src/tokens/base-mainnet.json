@@ -200,6 +200,14 @@
     "symbol": "GHZLI"
   },
   {
+    "address": "0xFD55f09328d7DcCc1C596dc981496546250d8804",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/LUCID.png",
+    "name": "Lucid Coin",
+    "symbol": "LUCID"
+  },
+  {
     "address": "0x524A481f7f48EBbbeD7773aDCFa821880c537128",
     "chainId": 8453,
     "decimals": 18,
