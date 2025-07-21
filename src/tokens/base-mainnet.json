@@ -478,5 +478,13 @@
     "logoURI": "https://files.sablier.com/tokens/USDC.png",
     "name": "USD Coin",
     "symbol": "USDC"
+  },
+    {
+    "address": "0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/MAMO.png",
+    "name": "Mamo",
+    "symbol": "MAMO"
   }
 ]
