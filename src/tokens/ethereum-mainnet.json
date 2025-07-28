@@ -2568,5 +2568,13 @@
     "logoURI": "https://files.sablier.com/tokens/GVNR.png",
     "name": "GVNR",
     "symbol": "GVNR"
+  },
+  {
+    "address": "0x1Fc122FE8b6Fa6b8598799baF687539b5D3B2783",
+    "chainId": 1,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/QUEST.png",
+    "name": "RavenQuest",
+    "symbol": "QUEST"
   }
 ]
