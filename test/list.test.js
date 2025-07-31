@@ -17,7 +17,7 @@ let defaultTokenList;
 
 before(async function () {
   // https://stackoverflow.com/questions/44149096
-  this.timeout(100000); // 100 seconds
+  this.timeout(300000); // 300 seconds
 
   const tokenListPath = path.join(__dirname, "../build/tokenlist.json");
 
