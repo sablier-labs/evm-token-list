@@ -358,5 +358,13 @@
     "logoURI": "https://files.sablier.com/tokens/VELVET.png",
     "name": "Velvet",
     "symbol": "VELVET"
+  },
+  {
+    "address": "0x1F34c87ded863Fe3A3Cd76FAc8adA9608137C8c3",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/OVL.png",
+    "name": "Overlay",
+    "symbol": "OVL"
   }
 ]
