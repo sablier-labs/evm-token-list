@@ -2576,5 +2576,20 @@
     "logoURI": "https://files.sablier.com/tokens/QUEST.png",
     "name": "RavenQuest",
     "symbol": "QUEST"
+  },
+  {
+    "address": "0x7D3Ce1265d5eA5848Dc1C96AADbf754E2baD33b1",
+    "chainId": 1,
+    "decimals": 18,
+    "extensions": {
+      "bridgeInfo": {
+        "10": {
+          "tokenAddress": "0x7D3Ce1265d5eA5848Dc1C96AADbf754E2baD33b1"
+        }
+      }
+    },
+    "logoURI": "https://files.sablier.com/tokens/FASH.png",
+    "name": "BNV",
+    "symbol": "FASH"
   }
 ]
