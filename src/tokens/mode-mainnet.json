@@ -38,5 +38,13 @@
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/assets/0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1/logo.png",
     "name": "Dai Stablecoin",
     "symbol": "DAI"
+  },
+    {
+    "address": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/MODE.png",
+    "name": "Mode",
+    "symbol": "MODE"
   }
 ]
