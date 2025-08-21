@@ -494,5 +494,13 @@
     "logoURI": "https://files.sablier.com/tokens/ZEN.png",
     "name": "Horizen",
     "symbol": "ZEN"
+  },
+    {
+    "address": "0xC729777d0470F30612B1564Fd96E8Dd26f5814E3",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SAPIEN.png",
+    "name": "Sapien",
+    "symbol": "SAPIEN"
   }
 ]
