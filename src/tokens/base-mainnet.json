@@ -495,12 +495,20 @@
     "name": "Horizen",
     "symbol": "ZEN"
   },
-    {
+	{
     "address": "0xC729777d0470F30612B1564Fd96E8Dd26f5814E3",
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://files.sablier.com/tokens/SAPIEN.png",
     "name": "Sapien",
     "symbol": "SAPIEN"
+  },
+	{
+    "address": "0x6C8c8e945C2CcB997B88259b2890Ba95f740dEbE",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/AISPACE.png",
+    "name": "NuSHA by Virtuals",
+    "symbol": "AISPACE"
   }
 ]
