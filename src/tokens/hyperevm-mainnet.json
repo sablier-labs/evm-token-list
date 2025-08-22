@@ -1,0 +1,10 @@
+[
+  {
+    "address": "0x5555555555555555555555555555555555555555",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/WHYPE.png",
+    "name": "Wrapped HYPE",
+    "symbol": "WHYPE"
+  }
+]
