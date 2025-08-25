@@ -46,6 +46,8 @@ on:
     secrets:
       API_KEY_INFURA:
         required: true
+      ROUTEME_API_KEY:
+        required: true
 
 jobs:
   check-decimals:
