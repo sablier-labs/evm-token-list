@@ -286,5 +286,13 @@
     "logoURI": "https://files.sablier.com/tokens/PMX.png",
     "name": "Primex Finance",
     "symbol": "PMX"
+  },
+  {
+    "address": "0xC760F9782F8ceA5B06D862574464729537159966",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/TANGO.png",
+    "name": "Contango",
+    "symbol": "TANGO"
   }
 ]
