@@ -34,8 +34,6 @@ const unichainMainnet = require("./tokens/unichain-mainnet.json");
 const xdcMainnet = require("./tokens/xdc-mainnet.json");
 const zksyncMainnet = require("./tokens/zksync-mainnet.json");
 
-const bridgeUtils = require("@uniswap/token-list-bridge-utils");
-
 module.exports = function buildList() {
   const parsed = version.split(".");
   const l1List = {
@@ -93,5 +91,5 @@ module.exports = function buildList() {
     },
   };
 
-  return bridgeUtils.chainify(l1List);
+  return Promise.resolve(l1List);
 };

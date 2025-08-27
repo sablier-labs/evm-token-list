@@ -13,7 +13,6 @@
     "@biomejs/biome": "2.0.0-beta.5",
     "@ethersproject/address": "^5.8",
     "@sablier/devkit": "github:sablier-labs/devkit",
-    "@uniswap/token-list-bridge-utils": "2.10",
     "@uniswap/token-lists": "^1.0.0-beta.34",
     "ajv": "^8.17",
     "ajv-formats": "^3.0",
