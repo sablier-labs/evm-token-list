@@ -222,5 +222,13 @@
     "logoURI": "https://files.sablier.com/tokens/NAI.png",
     "name": "Nuklai Token",
     "symbol": "NAI"
+  },
+   {
+    "address": "0x451532F1C9eb7E4Dc2d493dB52b682C0Acf6F5EF",
+    "chainId": 43114,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SUZ.png",
+    "name": "Suzaku",
+    "symbol": "SUZ"
   }
 ]
