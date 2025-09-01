@@ -510,5 +510,13 @@
     "logoURI": "https://files.sablier.com/tokens/AISPACE.png",
     "name": "NuSHA by Virtuals",
     "symbol": "AISPACE"
+  },
+  {
+    "address": "0xCfC8E8a4d2246dEC68115aE24aBbcA0d2B1E6bf2",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/BILLY.png",
+    "name": "Billy Bets by Virtuals",
+    "symbol": "BILLY"
   }
 ]
