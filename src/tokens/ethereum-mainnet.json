@@ -51,13 +51,6 @@
     "address": "0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "56": {
-          "tokenAddress": "0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/ALT.png",
     "name": "AltLayer",
     "symbol": "ALT"
@@ -66,25 +59,6 @@
     "address": "0x44e3ae622c1570Dc6E492aDB8DE92d01cA923d26",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "56": {
-          "tokenAddress": "0x7712da72127d5dD213B621497D6E4899d5989e5C"
-        },
-        "137": {
-          "tokenAddress": "0x44e3ae622c1570Dc6E492aDB8DE92d01cA923d26"
-        },
-        "42161": {
-          "tokenAddress": "0x7712da72127d5dD213B621497D6E4899d5989e5C"
-        },
-        "59144": {
-          "tokenAddress": "0x34B5c2936DAe6698e54781EDb8B1E69A2C2873F8"
-        },
-        "81457": {
-          "tokenAddress": "0xFFB9330A2bec43A23c46c83d4F4c0A6bb449F353"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/RYZE.png",
     "name": "Aryze",
     "symbol": "RYZE"
@@ -381,13 +355,6 @@
     "address": "0x68ccACa9ADF1552B3316d6067690eC27397c8ea8",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "137": {
-          "tokenAddress": "0x50AA659E6aB263B77d61Ff44cF4A1090141e7111"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/TOS.png",
     "name": "Cryptos",
     "symbol": "TOS"
@@ -516,16 +483,6 @@
     "address": "0x20157DBAbb84e3BBFE68C349d0d44E48AE7B5AD2",
     "chainId": 1,
     "decimals": 8,
-    "extensions": {
-      "bridgeInfo": {
-        "8453": {
-          "tokenAddress": "0x12418783e860997eb99e8aCf682DF952F721cF62"
-        },
-        "42161": {
-          "tokenAddress": "0x050c24dbf1eec17babe5fc585f06116a259cc77a"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/IBTC.png",
     "name": "iBTC",
     "symbol": "IBTC"
@@ -606,16 +563,6 @@
     "address": "0x26aAd156Ba8eFA501b32B42Ffcdc8413F90e9C99",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "56": {
-          "tokenAddress": "0xBdEAe1cA48894A1759A8374D63925f21f2Ee2639"
-        },
-        "137": {
-          "tokenAddress": "0xB03E3b00BaF9954bF1604d09A4dbd5Cf88E1f695"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/EDU.png",
     "name": "Open Campus",
     "symbol": "EDU"
@@ -816,13 +763,6 @@
     "address": "0x8730762Cad4a27816A467fAc54e3dd1E2e9617A1",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "137": {
-          "tokenAddress": "0x8730762Cad4a27816A467fAc54e3dd1E2e9617A1"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/GX.png",
     "name": "Grindery X",
     "symbol": "GX"
@@ -1135,28 +1075,6 @@
     "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "10": {
-          "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
-        },
-        "56": {
-          "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
-        },
-        "137": {
-          "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
-        },
-        "8453": {
-          "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
-        },
-        "42161": {
-          "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
-        },
-        "43114": {
-          "tokenAddress": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/MOLTEN.png",
     "name": "Molten",
     "symbol": "MOLTEN"
@@ -1213,13 +1131,6 @@
     "address": "0x84342e932797FC62814189f01F0Fb05F52519708",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "137": {
-          "tokenAddress": "0x84342e932797FC62814189f01F0Fb05F52519708"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/NHT.png",
     "name": "Neighbourhoods",
     "symbol": "NHT"
@@ -1420,13 +1331,6 @@
     "address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "42161": {
-          "tokenAddress": "0x330bD769382cFc6d50175903434CCC8D206DCAE5"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/PNK.png",
     "name": "Pinakion",
     "symbol": "PNK"
@@ -1931,13 +1835,6 @@
     "address": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "8453": {
-          "tokenAddress": "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/USDS.png",
     "name": "USDS Stablecoin",
     "symbol": "USDS"
@@ -1954,13 +1851,6 @@
     "address": "0x249cA82617eC3DfB2589c4c17ab7EC9765350a18",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "137": {
-          "tokenAddress": "0xc708D6F2153933DAA50B2D0758955Be0A93A8FEc"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/VERSE.png",
     "name": "Verse",
     "symbol": "VERSE"
@@ -2033,25 +1923,6 @@
     "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "10": {
-          "tokenAddress": "0x4200000000000000000000000000000000000006"
-        },
-        "100": {
-          "tokenAddress": "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1"
-        },
-        "137": {
-          "tokenAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
-        },
-        "2020": {
-          "tokenAddress": "0xc99a6A985eD2Cac1ef41640596C5A5f9F4E19Ef5"
-        },
-        "42161": {
-          "tokenAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
-        }
-      }
-    },
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
     "name": "Wrapped Ether",
     "symbol": "WETH"
@@ -2252,13 +2123,6 @@
     "address": "0xD3C68968137317a57a9bAbeacC7707Ec433548B4",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "8453": {
-          "tokenAddress": "0xD3C68968137317a57a9bAbeacC7707Ec433548B4"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/SOCIAL.png",
     "name": "Phavercoin",
     "symbol": "SOCIAL"
@@ -2355,16 +2219,6 @@
     "address": "0x0AA1e96D2a46Ec6beB2923dE1E61Addf5F5f1dce",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "100": {
-          "tokenAddress": "0x0AA1e96D2a46Ec6beB2923dE1E61Addf5F5f1dce"
-        },
-        "137": {
-          "tokenAddress": "0x0AA1e96D2a46Ec6beB2923dE1E61Addf5F5f1dce"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/REG.png",
     "name": "RealToken Ecosystem Governance",
     "symbol": "REG"
@@ -2589,15 +2443,24 @@
     "address": "0x7D3Ce1265d5eA5848Dc1C96AADbf754E2baD33b1",
     "chainId": 1,
     "decimals": 18,
-    "extensions": {
-      "bridgeInfo": {
-        "10": {
-          "tokenAddress": "0x7D3Ce1265d5eA5848Dc1C96AADbf754E2baD33b1"
-        }
-      }
-    },
     "logoURI": "https://files.sablier.com/tokens/FASH.png",
     "name": "BNV",
     "symbol": "FASH"
+  },
+  {
+    "address": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/USD1.png",
+    "name": "World Liberty Financial USD",
+    "symbol": "USD1"
+  },
+  {
+    "address": "0xdA5e1988097297dCdc1f90D4dFE7909e847CBeF6",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/WLFI.png",
+    "name": "World Liberty Financial",
+    "symbol": "WLFI"
   }
 ]
