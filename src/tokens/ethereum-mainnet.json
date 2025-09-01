@@ -2462,5 +2462,13 @@
     "logoURI": "https://files.sablier.com/tokens/WLFI.png",
     "name": "World Liberty Financial",
     "symbol": "WLFI"
+  },
+  {
+    "address": "0xB0fFa8000886e57F86dd5264b9582b2Ad87b2b91",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/W.png",
+    "name": "Wormhole",
+    "symbol": "W"
   }
 ]
