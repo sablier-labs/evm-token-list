@@ -2470,5 +2470,13 @@
     "logoURI": "https://files.sablier.com/tokens/W.png",
     "name": "Wormhole",
     "symbol": "W"
+  },
+  {
+    "address": "0x5eed99d066a8CaF10f3E4327c1b3D8b673485eED",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SEED.png",
+    "name": "Garden",
+    "symbol": "SEED"
   }
 ]
