@@ -37,8 +37,9 @@ jobs:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           additional_permissions: |
             actions: read
-        env:
-          CLAUDE_BRANCH: "claude/add-new-token"
+        continue-on-error:
+          false # Fail fast when low on credit
+
 
           # Optional: Customize the trigger phrase (default: @claude)
           # trigger_phrase: "/claude"

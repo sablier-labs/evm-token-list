@@ -51,20 +51,30 @@ This file defines custom slash commands that Claude Code can execute for managin
      ```
 
 5. **Run the tests**:
-  - Code check: Run `bun run check`. If it fails, run `bun run format`.
-  - Build check: Run `bun run build`.
-  - Test: Run `bun run test`.
+
+- Code check: Run `bun run check`. If it fails, run `bun run format`.
+- Build check: Run `bun run build`.
+- Test: Run `bun run test`.
 
 6. **Submit PR** (if tests pass):
    - Add token to appropriate network file in alphabetical order
    - Commit message: `list {SYMBOL}`
-   - Create PR with title: `Add {SYMBOL}: {Token Name}`
-   - Link to original issue in PR description
+   - Create PR using MCP GitHub tool:
+     ```
+     Use mcp__github__create_pull_request with:
+     - owner: "sablier-labs"
+     - repo: "evm-token-list"
+     - title: "Add {SYMBOL}: {Token Name}"
+     - head: current branch name (e.g., "claude/issue-{issue_number}-{timestamp}")
+     - base: "main"
+     - body: "Closes #{issue_number}\n\nAdds {Token Name} ({SYMBOL}) to {network} network.\n\n**Token Details:**\n- Address: {address}\n- Decimals: {decimals}\n- Chain: {chain}"
+     ```
 
 7. **Request Review**:
    - Request review on the PR from maxdesalle
 
 **Chain Mapping**:
+
 - "Ethereum" → `ethereum-mainnet.json` (chainId: 1)
 - "Base" → `base-mainnet.json` (chainId: 8453)
 - "Arbitrum" → `arbitrum-mainnet.json` (chainId: 42161)
@@ -77,6 +87,7 @@ This file defines custom slash commands that Claude Code can execute for managin
 Here's how the `/process-token-request` command processes issue #171 (SEED token):
 
 ### Input (GitHub Issue #171)
+
 ```
 Title: Add SEED: SEED
 Body:
@@ -91,6 +102,7 @@ Body:
 ```
 
 ### Processing Steps
+
 1. **Parse Issue**: Extract all token metadata
 2. **Handle Logo**:
    - Download from GitHub attachment
@@ -111,10 +123,11 @@ Body:
 4. **Submit PR**:
    - Add to `src/tokens/ethereum-mainnet.json` (alphabetically)
    - Commit: `list SEED`
-   - PR title: `Add SEED: Garden`
+   - Create PR using mcp**github**create_pull_request: "Add SEED: Garden"
 5. **Close Issue**: Link to PR and mark as completed
 
 ### Output
+
 - ✅ Logo PR created in sablier-labs.github.io
 - ✅ Token addition PR created in evm-token-list
 - ✅ Issue #171 closed with PR link
@@ -132,6 +145,7 @@ Body:
 ## Duplicate Detection & Handling
 
 ### Validation Logic
+
 When processing a token request, Claude performs these checks in order:
 
 1. **Exact Duplicate Check**:
@@ -152,16 +166,17 @@ When processing a token request, Claude performs these checks in order:
 
 ### Behavior Matrix
 
-| Scenario | Action | Issue Status | PR Created | Label Added | Comment |
-|----------|--------|--------------|------------|-------------|---------|
-| **Exact Duplicate** | Reject immediately | Close as "not planned" | ❌ No | `duplicate` | "❌ Token already exists on {network}" |
-| **Symbol Conflict** | Request verification | Keep open | ❌ No | `needs-verification` | "⚠️ Symbol already in use by different token" |
-| **Cross-Chain Token** | Proceed normally | Continue processing | ✅ Yes | None | "ℹ️ Cross-chain deployment detected" |
-| **Name Similarity** | Request clarification | Keep open | ❌ No | `needs-verification` | "⚠️ Similar token name found" |
+| Scenario              | Action                | Issue Status           | PR Created | Label Added          | Comment                                       |
+| --------------------- | --------------------- | ---------------------- | ---------- | -------------------- | --------------------------------------------- |
+| **Exact Duplicate**   | Reject immediately    | Close as "not planned" | ❌ No      | `duplicate`          | "❌ Token already exists on {network}"        |
+| **Symbol Conflict**   | Request verification  | Keep open              | ❌ No      | `needs-verification` | "⚠️ Symbol already in use by different token" |
+| **Cross-Chain Token** | Proceed normally      | Continue processing    | ✅ Yes     | None                 | "ℹ️ Cross-chain deployment detected"          |
+| **Name Similarity**   | Request clarification | Keep open              | ❌ No      | `needs-verification` | "⚠️ Similar token name found"                 |
 
 ### Comment Templates
 
 **Exact Duplicate**:
+
 ```
 ❌ **Duplicate Token Detected**
 
@@ -173,6 +188,7 @@ This issue has been automatically closed as duplicate. If you believe this is an
 ```
 
 **Symbol Conflict**:
+
 ```
 ⚠️ **Symbol Conflict Detected**
 
@@ -190,6 +206,7 @@ A maintainer will review this request.
 ```
 
 **Cross-Chain Notification**:
+
 ```
 ℹ️ **Cross-Chain Token Detected**
 
@@ -201,35 +218,40 @@ This appears to be a legitimate cross-chain deployment. Processing will continue
 ## Edge Cases & Special Handling
 
 ### Address Variations
+
 - **Case Sensitivity**: Convert addresses to lowercase for comparison, but preserve original checksumming in final entry
 - **Checksum Validation**: Verify addresses are properly checksummed using EIP-55 standard
 - **Zero Address**: Reject `0x0000000000000000000000000000000000000000` as invalid
 
 ### Symbol Normalization
+
 - **Case Insensitive**: Compare symbols in uppercase (e.g., "usdc" matches "USDC")
 - **Special Characters**: Handle symbols with dots, hyphens, or numbers (e.g., "USDC.e", "1INCH")
 - **Unicode**: Basic support for unicode characters but flag for manual review
 
 ### Chain Name Mapping
+
 - **Flexible Matching**: Handle variations like "Ethereum"/"Ethereum Mainnet"/"ETH"
 - **Case Insensitive**: "ethereum" matches "Ethereum"
 - **Common Typos**: "Ethareum" → "Ethereum", "Arbitium" → "Arbitrum"
 
 ### Network File Validation
+
 - **File Existence**: Check if target network file exists before processing
 - **JSON Integrity**: Validate file is valid JSON before modification
 - **Backup Strategy**: Create backup of file before adding token
 
 ### Logo Processing
+
 - **Image Validation**: Check file size, format (PNG/JPG), dimensions
 - **Download Timeout**: 30-second timeout for image downloads
 - **Fallback**: If logo processing fails, proceed without logo and notify
 
 ### Decimal Edge Cases
+
 - **Range Validation**: Ensure decimals between 0-18 (practical ERC-20 range)
 - **Type Validation**: Confirm decimals is integer, not string
 - **Common Values**: Flag unusual decimal values (not 18, 6, 8) for review
-
 
 ## Error Handling
 
