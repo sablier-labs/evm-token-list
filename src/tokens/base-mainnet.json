@@ -518,5 +518,13 @@
     "logoURI": "https://files.sablier.com/tokens/BILLY.png",
     "name": "Billy Bets by Virtuals",
     "symbol": "BILLY"
+  },
+  {
+    "address": "0x39E34BdCb53d80c8fbf30D4632c644E4a6C24B9b",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/AEIA.png",
+    "name": "AEVIGRA",
+    "symbol": "AEIA"
   }
 ]
