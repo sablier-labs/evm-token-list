@@ -2478,5 +2478,13 @@
     "logoURI": "https://files.sablier.com/tokens/SEED.png",
     "name": "Garden",
     "symbol": "SEED"
+  },
+  {
+    "address": "0x97FcAe77e8405d168c55Daf7F196FD00945de9d2",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/QTS.png",
+    "name": "Quintes",
+    "symbol": "QTS"
   }
 ]

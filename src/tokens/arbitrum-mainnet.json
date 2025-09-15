@@ -294,13 +294,5 @@
     "logoURI": "https://files.sablier.com/tokens/TANGO.png",
     "name": "Contango",
     "symbol": "TANGO"
-  },
-  {
-    "address": "0x97FcAe77e8405d168c55Daf7F196FD00945de9d2",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/QTS.png",
-    "name": "Quintes",
-    "symbol": "QTS"
   }
 ]
