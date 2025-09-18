@@ -526,5 +526,13 @@
     "logoURI": "https://files.sablier.com/tokens/AEIA.png",
     "name": "AEVIGRA",
     "symbol": "AEIA"
+  },
+  {
+    "address": "0x4e107a0000DB66f0E9Fd2039288Bf811dD1f9c74",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/VLR.png",
+    "name": "Velora",
+    "symbol": "VLR"
   }
 ]
