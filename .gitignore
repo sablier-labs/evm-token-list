@@ -1,6 +1,7 @@
 # directories
 dist
 node_modules
+!.claude/
 
 # files
 *.env
