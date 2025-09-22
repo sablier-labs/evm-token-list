@@ -70,5 +70,13 @@
     "logoURI": "https://files.sablier.com/tokens/TBAG.png",
     "name": "TBAG",
     "symbol": "TBAG"
+  },
+  {
+    "address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
+    "chainId": 59144,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/LINEA.png",
+    "name": "Linea",
+    "symbol": "LINEA"
   }
 ]
