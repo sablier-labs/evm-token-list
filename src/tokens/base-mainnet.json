@@ -534,5 +534,13 @@
     "logoURI": "https://files.sablier.com/tokens/VLR.png",
     "name": "Velora",
     "symbol": "VLR"
+  },
+  {
+    "address": "0x111123eA4Cee28CF010703593a8A2a3bbb91756C",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ARA.png",
+    "name": "ARA",
+    "symbol": "ARA"
   }
 ]
