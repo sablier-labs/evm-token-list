@@ -2494,5 +2494,13 @@
     "logoURI": "https://files.sablier.com/tokens/VLR.png",
     "name": "Velora",
     "symbol": "VLR"
+  },
+  {
+    "address": "0x690F1eEf8AcEaD09Ac695d9111Af081045c6d5b7",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/GNET.png",
+    "name": "GNET",
+    "symbol": "GNET"
   }
 ]
