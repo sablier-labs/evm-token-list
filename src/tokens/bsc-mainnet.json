@@ -382,5 +382,13 @@
     "logoURI": "https://files.sablier.com/tokens/VLR.png",
     "name": "Velora",
     "symbol": "VLR"
+  },
+  {
+    "address": "0xAcf5A368eC5bb9e804C8AC0b508dAA5A21C92e13",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/GAIN.png",
+    "name": "GriffinAI",
+    "symbol": "GAIN"
   }
 ]
