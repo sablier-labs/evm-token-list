@@ -22,5 +22,13 @@
     "logoURI": "https://files.sablier.com/tokens/SDAI.png",
     "name": "Savings Dai",
     "symbol": "SDAI"
+  },
+  {
+    "address": "0x2b1A859dE6A55c553520D7780Bc5805712B128F9",
+    "chainId": 50104,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/WSOPH.png",
+    "name": "Wrapped Sophon",
+    "symbol": "WSOPH"
   }
 ]
