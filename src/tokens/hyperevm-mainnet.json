@@ -6,5 +6,29 @@
     "logoURI": "https://files.sablier.com/tokens/WHYPE.png",
     "name": "Wrapped HYPE",
     "symbol": "WHYPE"
+  },
+  {
+    "address": "0x03832767BDf9A8EF007449942125Ad605aCfADb8",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SWAP.png",
+    "name": "Swap",
+    "symbol": "SWAP"
+  },
+  {
+    "address": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+    "chainId": 999,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDC.png",
+    "name": "USD Coin",
+    "symbol": "USDC"
+  },
+  {
+    "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "chainId": 999,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDT.png",
+    "name": "USD₮0",
+    "symbol": "USD₮0"
   }
 ]
