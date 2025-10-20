@@ -390,5 +390,13 @@
     "logoURI": "https://files.sablier.com/tokens/GAIN.png",
     "name": "GriffinAI",
     "symbol": "GAIN"
+  },
+  {
+    "address": "0x41c544303d45205f6717AEEa168D74A4E59284a7",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ALFA.png",
+    "name": "ALFA Game",
+    "symbol": "ALFA"
   }
 ]
