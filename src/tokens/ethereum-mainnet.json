@@ -2502,5 +2502,13 @@
     "logoURI": "https://files.sablier.com/tokens/GNET.png",
     "name": "GNET",
     "symbol": "GNET"
+  },
+  {
+    "address": "0x70c4430f9d98B4184A4ef3E44CE10c320a8B7383",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/GYFI.png",
+    "name": "Gyroscope",
+    "symbol": "GYFI"
   }
 ]

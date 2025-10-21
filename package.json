@@ -10,7 +10,7 @@
     "url": "https://github.com/sablier-labs/evm-token-list/issues"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.0-beta.5",
+    "@biomejs/biome": "^2.2.6",
     "@ethersproject/address": "^5.8",
     "@sablier/devkit": "github:sablier-labs/devkit",
     "@uniswap/token-lists": "^1.0.0-beta.34",
