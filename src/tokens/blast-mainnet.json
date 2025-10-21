@@ -1,13 +1,5 @@
 [
   {
-    "address": "0xFFB9330A2bec43A23c46c83d4F4c0A6bb449F353",
-    "chainId": 81457,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/RYZE.png",
-    "name": "Aryze",
-    "symbol": "RYZE"
-  },
-  {
     "address": "0x7135B32e9903BdB4e19a8b1D22fC2038964B8451",
     "chainId": 81457,
     "decimals": 18,
@@ -30,6 +22,14 @@
     "logoURI": "https://files.sablier.com/tokens/ORBIT.png",
     "name": "Orbit Protocol",
     "symbol": "ORBIT"
+  },
+  {
+    "address": "0xFFB9330A2bec43A23c46c83d4F4c0A6bb449F353",
+    "chainId": 81457,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/RYZE.png",
+    "name": "Aryze",
+    "symbol": "RYZE"
   },
   {
     "address": "0xE36072DD051Ce26261BF50CD966311cab62C596e",

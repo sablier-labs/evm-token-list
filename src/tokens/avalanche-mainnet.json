@@ -8,14 +8,6 @@
     "symbol": "AAVE.e"
   },
   {
-    "address": "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98",
-    "chainId": 43114,
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchec/assets/0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98/logo.png",
-    "name": "Binance USD",
-    "symbol": "BUSD.e"
-  },
-  {
     "address": "0x9366d30FeBA284E62900f6295BC28c9906f33172",
     "chainId": 43114,
     "decimals": 6,
@@ -24,12 +16,20 @@
     "symbol": "BioFi"
   },
   {
-    "address": "0x5947BB275c521040051D82396192181b413227A3",
+    "address": "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98",
     "chainId": 43114,
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchec/assets/0x5947BB275c521040051D82396192181b413227A3/logo.png",
-    "name": "ChainLink Token",
-    "symbol": "LINK.e"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchec/assets/0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98/logo.png",
+    "name": "Binance USD",
+    "symbol": "BUSD.e"
+  },
+  {
+    "address": "0xec3492a2508DDf4FDc0cD76F31f340b30d1793e6",
+    "chainId": 43114,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/CLY.png",
+    "name": "Colony Token",
+    "symbol": "CLY"
   },
   {
     "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
@@ -80,12 +80,12 @@
     "symbol": "JOE"
   },
   {
-    "address": "0x130966628846BFd36ff31a822705796e8cb8C18D",
+    "address": "0x5947BB275c521040051D82396192181b413227A3",
     "chainId": 43114,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/MIM.png",
-    "name": "Magic Internet Money",
-    "symbol": "MIM"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchec/assets/0x5947BB275c521040051D82396192181b413227A3/logo.png",
+    "name": "ChainLink Token",
+    "symbol": "LINK.e"
   },
   {
     "address": "0x5c49b268c9841AFF1Cc3B0a418ff5c3442eE3F3b",
@@ -94,6 +94,38 @@
     "logoURI": "https://files.sablier.com/tokens/MAI.png",
     "name": "Mai Stablecoin",
     "symbol": "MAI"
+  },
+  {
+    "address": "0x47c3118Ad183712Acd42648e9E522e13690f29a0",
+    "chainId": 43114,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/MEAT.png",
+    "name": "Meat",
+    "symbol": "MEAT"
+  },
+  {
+    "address": "0x130966628846BFd36ff31a822705796e8cb8C18D",
+    "chainId": 43114,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/MIM.png",
+    "name": "Magic Internet Money",
+    "symbol": "MIM"
+  },
+  {
+    "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
+    "chainId": 43114,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/MOLTEN.png",
+    "name": "Molten",
+    "symbol": "MOLTEN"
+  },
+  {
+    "address": "0x5Ac34C53A04B9aaA0BF047e7291fb4e8A48f2A18",
+    "chainId": 43114,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/NAI.png",
+    "name": "Nuklai Token",
+    "symbol": "NAI"
   },
   {
     "address": "0xA56F9A54880afBc30CF29bB66d2D9ADCdcaEaDD6",
@@ -112,14 +144,6 @@
     "symbol": "SIFU"
   },
   {
-    "address": "0x1f1E7c893855525b303f99bDF5c3c05Be09ca251",
-    "chainId": 43114,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/SYN.png",
-    "name": "Synapse",
-    "symbol": "SYN"
-  },
-  {
     "address": "0xb279f8DD152B99Ec1D84A489D32c35bC0C7F5674",
     "chainId": 43114,
     "decimals": 18,
@@ -128,12 +152,20 @@
     "symbol": "STEAK"
   },
   {
-    "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+    "address": "0x451532F1C9eb7E4Dc2d493dB52b682C0Acf6F5EF",
     "chainId": 43114,
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchec/assets/0xc7198437980c041c805A1EDcbA50c1Ce5db95118/logo.png",
-    "name": "Bridged Tether USD",
-    "symbol": "USDT.e"
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SUZ.png",
+    "name": "Suzaku",
+    "symbol": "SUZ"
+  },
+  {
+    "address": "0x1f1E7c893855525b303f99bDF5c3c05Be09ca251",
+    "chainId": 43114,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SYN.png",
+    "name": "Synapse",
+    "symbol": "SYN"
   },
   {
     "address": "0xb54f16fB19478766A268F172C9480f8da1a7c9C3",
@@ -160,12 +192,12 @@
     "symbol": "USDC"
   },
   {
-    "address": "0xaBC9547B534519fF73921b1FBA6E672b5f58D083",
+    "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
     "chainId": 43114,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/WOO.e.png",
-    "name": "Wootrade Network",
-    "symbol": "WOO.e"
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchec/assets/0xc7198437980c041c805A1EDcbA50c1Ce5db95118/logo.png",
+    "name": "Bridged Tether USD",
+    "symbol": "USDT.e"
   },
   {
     "address": "0x50b7545627a5162F82A992c33b87aDc75187B218",
@@ -184,51 +216,19 @@
     "symbol": "WETH.e"
   },
   {
+    "address": "0xaBC9547B534519fF73921b1FBA6E672b5f58D083",
+    "chainId": 43114,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/WOO.e.png",
+    "name": "Wootrade Network",
+    "symbol": "WOO.e"
+  },
+  {
     "address": "0x913C61ec3573E5E4ee6488552535Fb1be84FF2AC",
     "chainId": 43114,
     "decimals": 18,
     "logoURI": "https://files.sablier.com/tokens/XAV.png",
     "name": "Xave Token",
     "symbol": "XAV"
-  },
-  {
-    "address": "0xec3492a2508DDf4FDc0cD76F31f340b30d1793e6",
-    "chainId": 43114,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/CLY.png",
-    "name": "Colony Token",
-    "symbol": "CLY"
-  },
-  {
-    "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
-    "chainId": 43114,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/MOLTEN.png",
-    "name": "Molten",
-    "symbol": "MOLTEN"
-  },
-  {
-    "address": "0x47c3118Ad183712Acd42648e9E522e13690f29a0",
-    "chainId": 43114,
-    "decimals": 6,
-    "logoURI": "https://files.sablier.com/tokens/MEAT.png",
-    "name": "Meat",
-    "symbol": "MEAT"
-  },
-  {
-    "address": "0x5Ac34C53A04B9aaA0BF047e7291fb4e8A48f2A18",
-    "chainId": 43114,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/NAI.png",
-    "name": "Nuklai Token",
-    "symbol": "NAI"
-  },
-  {
-    "address": "0x451532F1C9eb7E4Dc2d493dB52b682C0Acf6F5EF",
-    "chainId": 43114,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/SUZ.png",
-    "name": "Suzaku",
-    "symbol": "SUZ"
   }
 ]

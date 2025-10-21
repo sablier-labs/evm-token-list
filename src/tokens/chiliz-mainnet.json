@@ -1,13 +1,5 @@
 [
   {
-    "address": "0x60F397acBCfB8f4e3234C659A3E10867e6fA6b67",
-    "chainId": 88888,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/PEPPER.png",
-    "name": "PEPPER Token",
-    "symbol": "PEPPER"
-  },
-  {
     "address": "0xF3928e7871eb136DD6648Ad08aEEF6B6ea893001",
     "chainId": 88888,
     "decimals": 4,
@@ -22,5 +14,13 @@
     "logoURI": "https://files.sablier.com/tokens/KAYEN.png",
     "name": "Kayen Token",
     "symbol": "KAYEN"
+  },
+  {
+    "address": "0x60F397acBCfB8f4e3234C659A3E10867e6fA6b67",
+    "chainId": 88888,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/PEPPER.png",
+    "name": "PEPPER Token",
+    "symbol": "PEPPER"
   }
 ]

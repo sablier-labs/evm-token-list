@@ -1,11 +1,27 @@
 [
   {
+    "address": "0x886640149E31E1430FA74Cc39725431eb82ddFB2",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/FORWARD.png",
+    "name": "Forward",
+    "symbol": "$FORWARD"
+  },
+  {
     "address": "0x111111111117dC0aa78b770fA6A738034120C302",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png",
     "name": "1INCH Token",
     "symbol": "1INCH"
+  },
+  {
+    "address": "0x41c544303d45205f6717AEEa168D74A4E59284a7",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ALFA.png",
+    "name": "ALFA Game",
+    "symbol": "ALFA"
   },
   {
     "address": "0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB",
@@ -24,52 +40,12 @@
     "symbol": "AXS"
   },
   {
-    "address": "0x7712da72127d5dD213B621497D6E4899d5989e5C",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/RYZE.png",
-    "name": "Aryze",
-    "symbol": "RYZE"
-  },
-  {
     "address": "0x36F5675029E129B5fCaBb29eC750ed268520AcF7",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://files.sablier.com/tokens/BADAI.png",
     "name": "BAD AI",
     "symbol": "BADAI"
-  },
-  {
-    "address": "0xBdEAe1cA48894A1759A8374D63925f21f2Ee2639",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/EDU.png",
-    "name": "Open Campus",
-    "symbol": "EDU"
-  },
-  {
-    "address": "0xe20B9e246db5a0d21BF9209E4858Bc9A3ff7A034",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/bWBAN.png",
-    "name": "Wrapped Banano",
-    "symbol": "bWBAN"
-  },
-  {
-    "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/ETH.png",
-    "name": "Binance-Peg Ether",
-    "symbol": "ETH"
-  },
-  {
-    "address": "0xB0b84D294e0C75A6abe60171b70edEb2EFd14A1B",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/SLISBNB.png",
-    "name": "Lista Staked BNB",
-    "symbol": "SLISBNB"
   },
   {
     "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
@@ -80,20 +56,28 @@
     "symbol": "BUSD"
   },
   {
-    "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+    "address": "0xe20B9e246db5a0d21BF9209E4858Bc9A3ff7A034",
     "chainId": 56,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/DAI.png",
-    "name": "Dai Stablecoin",
-    "symbol": "DAI"
+    "logoURI": "https://files.sablier.com/tokens/bWBAN.png",
+    "name": "Wrapped Banano",
+    "symbol": "bWBAN"
   },
   {
-    "address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+    "address": "0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e",
     "chainId": 56,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/LINK.png",
-    "name": "ChainLink Token",
-    "symbol": "LINK"
+    "logoURI": "https://files.sablier.com/tokens/XEN.png",
+    "name": "XEN Crypto",
+    "symbol": "bXEN"
+  },
+  {
+    "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/CAKE.png",
+    "name": "PancakeSwap Token",
+    "symbol": "CAKE"
   },
   {
     "address": "0x1F1C90aEb2fd13EA972F0a71e35c0753848e3DB0",
@@ -112,6 +96,30 @@
     "symbol": "COMP"
   },
   {
+    "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/DAI.png",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI"
+  },
+  {
+    "address": "0xBdEAe1cA48894A1759A8374D63925f21f2Ee2639",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/EDU.png",
+    "name": "Open Campus",
+    "symbol": "EDU"
+  },
+  {
+    "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ETH.png",
+    "name": "Binance-Peg Ether",
+    "symbol": "ETH"
+  },
+  {
     "address": "0x1935C03bB7DbC3623bD992CE599bC26bD30A43EB",
     "chainId": 56,
     "decimals": 18,
@@ -126,6 +134,30 @@
     "logoURI": "https://files.sablier.com/tokens/FTM.png",
     "name": "Fantom Token",
     "symbol": "FTM"
+  },
+  {
+    "address": "0x89Af13A10b32F1b2f8d1588f93027F69B6F4E27e",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/GAFI.png",
+    "name": "GameFi",
+    "symbol": "GAFI"
+  },
+  {
+    "address": "0xAcf5A368eC5bb9e804C8AC0b508dAA5A21C92e13",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/GAIN.png",
+    "name": "GriffinAI",
+    "symbol": "GAIN"
+  },
+  {
+    "address": "0x2aC892caE423FeE5e4d45F7e1C713Cf141A9ec9E",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/HANURAM.png",
+    "name": "HANURAM",
+    "symbol": "HANURAM"
   },
   {
     "address": "0x4FA7163E153419E0E1064e418dd7A99314Ed27b6",
@@ -144,12 +176,20 @@
     "symbol": "JADE"
   },
   {
-    "address": "0x2aC892caE423FeE5e4d45F7e1C713Cf141A9ec9E",
+    "address": "0xfD0BeCBd334B1DA1d5E30e8E7496d0f4dDb72811",
     "chainId": 56,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/HANURAM.png",
-    "name": "HANURAM",
-    "symbol": "HANURAM"
+    "logoURI": "https://files.sablier.com/tokens/KAYEN.png",
+    "name": "Kayen Token",
+    "symbol": "KAYEN"
+  },
+  {
+    "address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/LINK.png",
+    "name": "ChainLink Token",
+    "symbol": "LINK"
   },
   {
     "address": "0x3F56e0c36d275367b8C502090EDF38289b3dEa0d",
@@ -168,196 +208,12 @@
     "symbol": "MKR"
   },
   {
-    "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/CAKE.png",
-    "name": "PancakeSwap Token",
-    "symbol": "CAKE"
-  },
-  {
-    "address": "0xb3c11196A4f3b1da7c23d9FB0A3dDE9c6340934F",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/USDP.png",
-    "name": "Pax Dollar Token",
-    "symbol": "USDP"
-  },
-  {
-    "address": "0xb7F8Cd00C5A06c0537E2aBfF0b58033d02e5E094",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/PAX.png",
-    "name": "Paxos Standard",
-    "symbol": "PAX"
-  },
-  {
-    "address": "0x595c8481c48894771CE8FaDE54ac6Bf59093F9E8",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/POLK.png",
-    "name": "Polkamarkets",
-    "symbol": "POLK"
-  },
-  {
-    "address": "0x9Ac983826058b8a9C7Aa1C9171441191232E8404",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/SNX.png",
-    "name": "Synthetix Network Token",
-    "symbol": "SNX"
-  },
-  {
-    "address": "0x55d398326f99059fF775485246999027B3197955",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/USDT.png",
-    "name": "Tether USD",
-    "symbol": "USDT"
-  },
-  {
-    "address": "0xe2a59D5E33c6540E18aAA46BF98917aC3158Db0D",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/UFI.png",
-    "name": "PureFi",
-    "symbol": "UFI"
-  },
-  {
-    "address": "0xf7DE7E8A6bd59ED41a4b5fe50278b3B7f31384dF",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/RDNT.png",
-    "name": "Radiant",
-    "symbol": "RDNT"
-  },
-  {
-    "address": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/UNI.png",
-    "name": "Uniswap",
-    "symbol": "UNI"
-  },
-  {
-    "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/USDC.png",
-    "name": "USD Coin",
-    "symbol": "USDC"
-  },
-  {
-    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/WBNB.png",
-    "name": "Wrapped BNB",
-    "symbol": "WBNB"
-  },
-  {
-    "address": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/UST.png",
-    "name": "Wrapped UST Token",
-    "symbol": "UST"
-  },
-  {
-    "address": "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/YFI.png",
-    "name": "yearn.finance",
-    "symbol": "YFI"
-  },
-  {
-    "address": "0xa3870fbBeb730BA99e4107051612af3465CA9F5e",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/STABLE.png",
-    "name": "STABLE",
-    "symbol": "STABLE"
-  },
-  {
-    "address": "0x6CC97eF7D330C090681c3a6d266F6AdeDf80e56B",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://weave.financial/wp-content/uploads/2021/08/weave-symbol.png",
-    "name": "Weave Token",
-    "symbol": "WEAVE"
-  },
-  {
-    "address": "0x78353861e96a4A3D757BC7EF6C0dd4F667e6274B",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/PECLAND.png",
-    "name": "PECland",
-    "symbol": "PECL"
-  },
-  {
-    "address": "0x89Af13A10b32F1b2f8d1588f93027F69B6F4E27e",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/GAFI.png",
-    "name": "GameFi",
-    "symbol": "GAFI"
-  },
-  {
-    "address": "0x886640149E31E1430FA74Cc39725431eb82ddFB2",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/FORWARD.png",
-    "name": "Forward",
-    "symbol": "$FORWARD"
-  },
-  {
     "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://files.sablier.com/tokens/MOLTEN.png",
     "name": "Molten",
     "symbol": "MOLTEN"
-  },
-  {
-    "address": "0x991b4ce57864060115700D6FC05c7780346a15Ac",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/Y8U.png",
-    "name": "Y8U.ai",
-    "symbol": "Y8U"
-  },
-  {
-    "address": "0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/XEN.png",
-    "name": "XEN Crypto",
-    "symbol": "bXEN"
-  },
-  {
-    "address": "0x0B3EAEAd748facDb9d943d3407011f16Eb17D0Cf",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/PMX.png",
-    "name": "Primex Finance",
-    "symbol": "PMX"
-  },
-  {
-    "address": "0xfD0BeCBd334B1DA1d5E30e8E7496d0f4dDb72811",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/KAYEN.png",
-    "name": "Kayen Token",
-    "symbol": "KAYEN"
-  },
-  {
-    "address": "0x8b194370825e37b33373e74a41009161808c1488",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/VELVET.png",
-    "name": "Velvet",
-    "symbol": "VELVET"
   },
   {
     "address": "0x1F34c87ded863Fe3A3Cd76FAc8adA9608137C8c3",
@@ -368,12 +224,140 @@
     "symbol": "OVL"
   },
   {
+    "address": "0xb7F8Cd00C5A06c0537E2aBfF0b58033d02e5E094",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/PAX.png",
+    "name": "Paxos Standard",
+    "symbol": "PAX"
+  },
+  {
+    "address": "0x78353861e96a4A3D757BC7EF6C0dd4F667e6274B",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/PECLAND.png",
+    "name": "PECland",
+    "symbol": "PECL"
+  },
+  {
+    "address": "0x0B3EAEAd748facDb9d943d3407011f16Eb17D0Cf",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/PMX.png",
+    "name": "Primex Finance",
+    "symbol": "PMX"
+  },
+  {
+    "address": "0x595c8481c48894771CE8FaDE54ac6Bf59093F9E8",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/POLK.png",
+    "name": "Polkamarkets",
+    "symbol": "POLK"
+  },
+  {
+    "address": "0xf7DE7E8A6bd59ED41a4b5fe50278b3B7f31384dF",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/RDNT.png",
+    "name": "Radiant",
+    "symbol": "RDNT"
+  },
+  {
+    "address": "0x7712da72127d5dD213B621497D6E4899d5989e5C",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/RYZE.png",
+    "name": "Aryze",
+    "symbol": "RYZE"
+  },
+  {
+    "address": "0xB0b84D294e0C75A6abe60171b70edEb2EFd14A1B",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SLISBNB.png",
+    "name": "Lista Staked BNB",
+    "symbol": "SLISBNB"
+  },
+  {
+    "address": "0x9Ac983826058b8a9C7Aa1C9171441191232E8404",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SNX.png",
+    "name": "Synthetix Network Token",
+    "symbol": "SNX"
+  },
+  {
+    "address": "0xa3870fbBeb730BA99e4107051612af3465CA9F5e",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/STABLE.png",
+    "name": "STABLE",
+    "symbol": "STABLE"
+  },
+  {
+    "address": "0xe2a59D5E33c6540E18aAA46BF98917aC3158Db0D",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/UFI.png",
+    "name": "PureFi",
+    "symbol": "UFI"
+  },
+  {
+    "address": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/UNI.png",
+    "name": "Uniswap",
+    "symbol": "UNI"
+  },
+  {
     "address": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://files.sablier.com/tokens/USD1.png",
     "name": "World Liberty Financial USD",
     "symbol": "USD1"
+  },
+  {
+    "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/USDC.png",
+    "name": "USD Coin",
+    "symbol": "USDC"
+  },
+  {
+    "address": "0xb3c11196A4f3b1da7c23d9FB0A3dDE9c6340934F",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/USDP.png",
+    "name": "Pax Dollar Token",
+    "symbol": "USDP"
+  },
+  {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/USDT.png",
+    "name": "Tether USD",
+    "symbol": "USDT"
+  },
+  {
+    "address": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/UST.png",
+    "name": "Wrapped UST Token",
+    "symbol": "UST"
+  },
+  {
+    "address": "0x8b194370825e37b33373e74a41009161808c1488",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/VELVET.png",
+    "name": "Velvet",
+    "symbol": "VELVET"
   },
   {
     "address": "0x4e107a0000DB66f0E9Fd2039288Bf811dD1f9c74",
@@ -384,19 +368,35 @@
     "symbol": "VLR"
   },
   {
-    "address": "0xAcf5A368eC5bb9e804C8AC0b508dAA5A21C92e13",
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
     "chainId": 56,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/GAIN.png",
-    "name": "GriffinAI",
-    "symbol": "GAIN"
+    "logoURI": "https://files.sablier.com/tokens/WBNB.png",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
   },
   {
-    "address": "0x41c544303d45205f6717AEEa168D74A4E59284a7",
+    "address": "0x6CC97eF7D330C090681c3a6d266F6AdeDf80e56B",
     "chainId": 56,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/ALFA.png",
-    "name": "ALFA Game",
-    "symbol": "ALFA"
+    "logoURI": "https://weave.financial/wp-content/uploads/2021/08/weave-symbol.png",
+    "name": "Weave Token",
+    "symbol": "WEAVE"
+  },
+  {
+    "address": "0x991b4ce57864060115700D6FC05c7780346a15Ac",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/Y8U.png",
+    "name": "Y8U.ai",
+    "symbol": "Y8U"
+  },
+  {
+    "address": "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/YFI.png",
+    "name": "yearn.finance",
+    "symbol": "YFI"
   }
 ]

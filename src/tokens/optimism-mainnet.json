@@ -8,14 +8,6 @@
     "symbol": "BNRY"
   },
   {
-    "address": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
-    "chainId": 10,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/LINK.png",
-    "name": "ChainLink Token",
-    "symbol": "LINK"
-  },
-  {
     "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
     "chainId": 10,
     "decimals": 18,
@@ -32,12 +24,44 @@
     "symbol": "EXA"
   },
   {
+    "address": "0x7D3Ce1265d5eA5848Dc1C96AADbf754E2baD33b1",
+    "chainId": 10,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/FASH.png",
+    "name": "BNV",
+    "symbol": "FASH"
+  },
+  {
     "address": "0xc871cCf95024eFa2CbcE69B5B775D2a1DcF49c1B",
     "chainId": 10,
     "decimals": 18,
     "logoURI": "https://files.sablier.com/tokens/GROW.png",
     "name": "ValleyDAO",
     "symbol": "GROW"
+  },
+  {
+    "address": "0x0a7B751FcDBBAA8BB988B9217ad5Fb5cfe7bf7A0",
+    "chainId": 10,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ITP.png",
+    "name": "Infinite Trading Protocol",
+    "symbol": "ITP"
+  },
+  {
+    "address": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+    "chainId": 10,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/LINK.png",
+    "name": "ChainLink Token",
+    "symbol": "LINK"
+  },
+  {
+    "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
+    "chainId": 10,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/MOLTEN.png",
+    "name": "Molten",
+    "symbol": "MOLTEN"
   },
   {
     "address": "0x4200000000000000000000000000000000000042",
@@ -48,20 +72,20 @@
     "symbol": "OP"
   },
   {
+    "address": "0xd3594E879B358F430E20F82bea61e83562d49D48",
+    "chainId": 10,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/PSP.png",
+    "name": "ParaSwap",
+    "symbol": "PSP"
+  },
+  {
     "address": "0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4",
     "chainId": 10,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/optimism/assets/0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4/logo.png",
     "name": "Synthetix Network Token",
     "symbol": "SNX"
-  },
-  {
-    "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
-    "chainId": 10,
-    "decimals": 6,
-    "logoURI": "https://files.sablier.com/tokens/USDT.png",
-    "name": "Tether USD",
-    "symbol": "USDT"
   },
   {
     "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
@@ -78,6 +102,22 @@
     "logoURI": "https://files.sablier.com/tokens/USDC.png",
     "name": "Bridged USD Coin",
     "symbol": "USDC.e"
+  },
+  {
+    "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "chainId": 10,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDT.png",
+    "name": "Tether USD",
+    "symbol": "USDT"
+  },
+  {
+    "address": "0x4e107a0000DB66f0E9Fd2039288Bf811dD1f9c74",
+    "chainId": 10,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/VLR.png",
+    "name": "Velora",
+    "symbol": "VLR"
   },
   {
     "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
@@ -102,45 +142,5 @@
     "logoURI": "https://assets.coingecko.com/coins/images/18834/thumb/wstETH.png",
     "name": "Wrapped liquid staked Ether 2.0",
     "symbol": "wstETH"
-  },
-  {
-    "address": "0xd3594E879B358F430E20F82bea61e83562d49D48",
-    "chainId": 10,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/PSP.png",
-    "name": "ParaSwap",
-    "symbol": "PSP"
-  },
-  {
-    "address": "0x0a7B751FcDBBAA8BB988B9217ad5Fb5cfe7bf7A0",
-    "chainId": 10,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/ITP.png",
-    "name": "Infinite Trading Protocol",
-    "symbol": "ITP"
-  },
-  {
-    "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
-    "chainId": 10,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/MOLTEN.png",
-    "name": "Molten",
-    "symbol": "MOLTEN"
-  },
-  {
-    "address": "0x7D3Ce1265d5eA5848Dc1C96AADbf754E2baD33b1",
-    "chainId": 10,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/FASH.png",
-    "name": "BNV",
-    "symbol": "FASH"
-  },
-  {
-    "address": "0x4e107a0000DB66f0E9Fd2039288Bf811dD1f9c74",
-    "chainId": 10,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/VLR.png",
-    "name": "Velora",
-    "symbol": "VLR"
   }
 ]

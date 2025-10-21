@@ -1,37 +1,5 @@
 [
   {
-    "address": "0xcdd475325d6f564d27247d1dddbb0dac6fa0a5cf",
-    "chainId": 34443,
-    "decimals": 8,
-    "logoURI": "https://files.sablier.com/tokens/WBTC.png",
-    "name": "Wrapped Bitcoin",
-    "symbol": "WBTC"
-  },
-  {
-    "address": "0x4200000000000000000000000000000000000006",
-    "chainId": 34443,
-    "decimals": 18,
-    "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
-    "name": "Wrapped Ether",
-    "symbol": "WETH"
-  },
-  {
-    "address": "0xf0f161fda2712db8b566946122a5af183995e2ed",
-    "chainId": 34443,
-    "decimals": 6,
-    "logoURI": "https://files.sablier.com/tokens/USDT.png",
-    "name": "Tether USD",
-    "symbol": "USDT"
-  },
-  {
-    "address": "0xd988097fb8612cc24eec14542bc03424c656005f",
-    "chainId": 34443,
-    "decimals": 6,
-    "logoURI": "https://files.sablier.com/tokens/USDC.png",
-    "name": "USD Coin",
-    "symbol": "USDC"
-  },
-  {
     "address": "0xe7798f023fc62146e8aa1b36da45fb70855a77ea",
     "chainId": 34443,
     "decimals": 18,
@@ -46,5 +14,37 @@
     "logoURI": "https://files.sablier.com/tokens/MODE.png",
     "name": "Mode",
     "symbol": "MODE"
+  },
+  {
+    "address": "0xd988097fb8612cc24eec14542bc03424c656005f",
+    "chainId": 34443,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDC.png",
+    "name": "USD Coin",
+    "symbol": "USDC"
+  },
+  {
+    "address": "0xf0f161fda2712db8b566946122a5af183995e2ed",
+    "chainId": 34443,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDT.png",
+    "name": "Tether USD",
+    "symbol": "USDT"
+  },
+  {
+    "address": "0xcdd475325d6f564d27247d1dddbb0dac6fa0a5cf",
+    "chainId": 34443,
+    "decimals": 8,
+    "logoURI": "https://files.sablier.com/tokens/WBTC.png",
+    "name": "Wrapped Bitcoin",
+    "symbol": "WBTC"
+  },
+  {
+    "address": "0x4200000000000000000000000000000000000006",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
   }
 ]

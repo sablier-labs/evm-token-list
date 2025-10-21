@@ -8,14 +8,6 @@
     "symbol": "DAI"
   },
   {
-    "address": "0x34a62c23261F6a84A40614a68ADDF41943F5d6C6",
-    "chainId": 11155111,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/SALD.png",
-    "name": "Salad",
-    "symbol": "SALD"
-  },
-  {
     "address": "0xB5CACad778b963C4b973Eb82A48a3911e5c745cc",
     "chainId": 11155111,
     "decimals": 18,
@@ -24,12 +16,12 @@
     "symbol": "OMNI"
   },
   {
-    "address": "0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0",
+    "address": "0x34a62c23261F6a84A40614a68ADDF41943F5d6C6",
     "chainId": 11155111,
-    "decimals": 6,
-    "logoURI": "https://files.sablier.com/tokens/USDT.png",
-    "name": "USDT",
-    "symbol": "USDT"
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SALD.png",
+    "name": "Salad",
+    "symbol": "SALD"
   },
   {
     "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
@@ -38,5 +30,13 @@
     "logoURI": "https://files.sablier.com/tokens/USDC.png",
     "name": "USDC",
     "symbol": "USDC"
+  },
+  {
+    "address": "0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0",
+    "chainId": 11155111,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDT.png",
+    "name": "USDT",
+    "symbol": "USDT"
   }
 ]

@@ -1,51 +1,19 @@
 [
   {
-    "address": "0xf55bec9cafdbe8730f096aa55dad6d22d44099df",
-    "chainId": 534352,
-    "decimals": 6,
-    "logoURI": "https://files.sablier.com/tokens/USDT.png",
-    "name": "Tether USD",
-    "symbol": "USDT"
-  },
-  {
-    "address": "0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4",
-    "chainId": 534352,
-    "decimals": 6,
-    "logoURI": "https://files.sablier.com/tokens/USDC.png",
-    "name": "USD Coin",
-    "symbol": "USDC"
-  },
-  {
-    "address": "0x3c1bca5a656e69edcd0d4e36bebb3fcdaca60cf1",
-    "chainId": 534352,
-    "decimals": 8,
-    "logoURI": "https://files.sablier.com/tokens/WBTC.png",
-    "name": "Wrapped BTC",
-    "symbol": "WBTC"
-  },
-  {
-    "address": "0x434cda25e8a2ca5d9c1c449a8cb6bcbf719233e8",
-    "chainId": 534352,
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
-    "name": "Uniswap",
-    "symbol": "UNI"
-  },
-  {
-    "address": "0xca77eb3fefe3725dc33bccb54edefc3d9f764f97",
-    "chainId": 534352,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/DAI.png",
-    "name": "Dai Stablecoin",
-    "symbol": "DAI"
-  },
-  {
     "address": "0x79379c0e09a41d7978f883a56246290ee9a8c4d3",
     "chainId": 534352,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/assets/0xD6DF932A45C0f255f85145f286eA0b292B21C90B/logo.png",
     "name": "Aave Token",
     "symbol": "AAVE"
+  },
+  {
+    "address": "0x6a28e90582c583fcd3347931c544819c31e9d0e0",
+    "chainId": 534352,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
+    "name": "Balancer",
+    "symbol": "BAL"
   },
   {
     "address": "0xb755039edc7910c1f1bd985d48322e55a31ac0bf",
@@ -56,6 +24,14 @@
     "symbol": "CRV"
   },
   {
+    "address": "0xca77eb3fefe3725dc33bccb54edefc3d9f764f97",
+    "chainId": 534352,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/DAI.png",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI"
+  },
+  {
     "address": "0xedeabc3a1e7d21fe835ffa6f83a710c70bb1a051",
     "chainId": 534352,
     "decimals": 18,
@@ -64,12 +40,36 @@
     "symbol": "LUSD"
   },
   {
-    "address": "0x6a28e90582c583fcd3347931c544819c31e9d0e0",
+    "address": "0x434cda25e8a2ca5d9c1c449a8cb6bcbf719233e8",
     "chainId": 534352,
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
-    "name": "Balancer",
-    "symbol": "BAL"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
+    "name": "Uniswap",
+    "symbol": "UNI"
+  },
+  {
+    "address": "0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4",
+    "chainId": 534352,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDC.png",
+    "name": "USD Coin",
+    "symbol": "USDC"
+  },
+  {
+    "address": "0xf55bec9cafdbe8730f096aa55dad6d22d44099df",
+    "chainId": 534352,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDT.png",
+    "name": "Tether USD",
+    "symbol": "USDT"
+  },
+  {
+    "address": "0x3c1bca5a656e69edcd0d4e36bebb3fcdaca60cf1",
+    "chainId": 534352,
+    "decimals": 8,
+    "logoURI": "https://files.sablier.com/tokens/WBTC.png",
+    "name": "Wrapped BTC",
+    "symbol": "WBTC"
   },
   {
     "address": "0x5300000000000000000000000000000000000004",

@@ -1,51 +1,19 @@
 [
   {
+    "address": "0x524A481f7f48EBbbeD7773aDCFa821880c537128",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ZEROX.png",
+    "name": "0x",
+    "symbol": "0x"
+  },
+  {
     "address": "0xaaa843fb2916c0b57454270418e121c626402aaa",
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://files.sablier.com/tokens/AAA.png",
     "name": "Arcadia",
     "symbol": "AAA"
-  },
-  {
-    "address": "0xD3b0b58eC9516e4b875a075328E2CB059d4d54dB",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/ARCHAI.png",
-    "name": "ArchAI",
-    "symbol": "ARCHAI"
-  },
-  {
-    "address": "0xba8cd87120aca631f59231f9fd6c5469bbee3440",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/ITP.png",
-    "name": "Infinite Trading Protocol",
-    "symbol": "ITP"
-  },
-  {
-    "address": "0x24c91E5E9eb13E72Db41EBC5816Af7f259647B07",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/MYU.png",
-    "name": "Myceliyou",
-    "symbol": "MYU"
-  },
-  {
-    "address": "0x02D4f76656C2B4f58430e91f8ac74896c9281Cb9",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/AIP.png",
-    "name": "Pett AI",
-    "symbol": "AIP"
-  },
-  {
-    "address": "0xb18c609796848C723eAcaDC0BE5b71Ceb2289a48",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/ATA.png",
-    "name": "ATA by Virtuals",
-    "symbol": "ATA"
   },
   {
     "address": "0x79dacb99a8698052a9898e81fdf883c29efb93cb",
@@ -56,12 +24,108 @@
     "symbol": "ACOLYT"
   },
   {
+    "address": "0x39E34BdCb53d80c8fbf30D4632c644E4a6C24B9b",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/AEIA.png",
+    "name": "AEVIGRA",
+    "symbol": "AEIA"
+  },
+  {
+    "address": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/AERO.png",
+    "name": "Aerodrome",
+    "symbol": "AERO"
+  },
+  {
+    "address": "0x02D4f76656C2B4f58430e91f8ac74896c9281Cb9",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/AIP.png",
+    "name": "Pett AI",
+    "symbol": "AIP"
+  },
+  {
+    "address": "0x6C8c8e945C2CcB997B88259b2890Ba95f740dEbE",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/AISPACE.png",
+    "name": "NuSHA by Virtuals",
+    "symbol": "AISPACE"
+  },
+  {
+    "address": "0x76C71F1703Fbf19FFdcF3051E1e684Cb9934510f",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://aixcbcapital.com/wp-content/uploads/2025/01/logo-128.png",
+    "name": "aixCB by Virtuals",
+    "symbol": "AIXCB"
+  },
+  {
+    "address": "0xDdf98aad8180c3E368467782CD07AE2E3E8d36A5",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/AM.png",
+    "name": "animated",
+    "symbol": "AM"
+  },
+  {
     "address": "0xeeC468333ccc16D4BF1cEf497A56cf8C0aAe4Ca3",
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://files.sablier.com/tokens/ANZ.png",
     "name": "Anzen",
     "symbol": "ANZ"
+  },
+  {
+    "address": "0x111123eA4Cee28CF010703593a8A2a3bbb91756C",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ARA.png",
+    "name": "ARA",
+    "symbol": "ARA"
+  },
+  {
+    "address": "0xD3b0b58eC9516e4b875a075328E2CB059d4d54dB",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ARCHAI.png",
+    "name": "ArchAI",
+    "symbol": "ARCHAI"
+  },
+  {
+    "address": "0xb18c609796848C723eAcaDC0BE5b71Ceb2289a48",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ATA.png",
+    "name": "ATA by Virtuals",
+    "symbol": "ATA"
+  },
+  {
+    "address": "0x80f6bcedd3d4fa1035285affa30e38f464db3895",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/BET.png",
+    "name": "BetBase",
+    "symbol": "BET"
+  },
+  {
+    "address": "0xCfC8E8a4d2246dEC68115aE24aBbcA0d2B1E6bf2",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/BILLY.png",
+    "name": "Billy Bets by Virtuals",
+    "symbol": "BILLY"
+  },
+  {
+    "address": "0xcdE172dc5ffC46D228838446c57C1227e0B82049",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/BOOMER.png",
+    "name": "Boomer",
+    "symbol": "BOOMER"
   },
   {
     "address": "0xF25B7DD973e30Dcf219fbED7bD336b9ab5A05DD9",
@@ -88,36 +152,12 @@
     "symbol": "BUZ"
   },
   {
-    "address": "0xD2237D9fE0c36721220e4bD88aa85b55ffDA0E84",
-    "chainId": 8453,
-    "decimals": 8,
-    "logoURI": "https://files.sablier.com/tokens/COIM.png",
-    "name": "CoinMath",
-    "symbol": "COIM"
-  },
-  {
-    "address": "0xe2B76f98fB5dC10A9Aed0F4A4a854De325740019",
+    "address": "0x063D2DB6D348Fa5957b78B6141d144426486c68C",
     "chainId": 8453,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/DPHN.png",
-    "name": "Dolphin",
-    "symbol": "DPHN"
-  },
-  {
-    "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
-    "chainId": 8453,
-    "decimals": 6,
-    "logoURI": "https://files.sablier.com/tokens/USDC.png",
-    "name": "USD Base Coin",
-    "symbol": "USDbC"
-  },
-  {
-    "address": "0x4200000000000000000000000000000000000006",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
-    "name": "Wrapped Ether",
-    "symbol": "WETH"
+    "logoURI": "https://files.sablier.com/tokens/CAT.png",
+    "name": "SocioCat",
+    "symbol": "CAT"
   },
   {
     "address": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
@@ -126,6 +166,14 @@
     "logoURI": "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
     "name": "Coinbase Wrapped Staked ETH",
     "symbol": "cbETH"
+  },
+  {
+    "address": "0xD2237D9fE0c36721220e4bD88aa85b55ffDA0E84",
+    "chainId": 8453,
+    "decimals": 8,
+    "logoURI": "https://files.sablier.com/tokens/COIM.png",
+    "name": "CoinMath",
+    "symbol": "COIM"
   },
   {
     "address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
@@ -144,78 +192,6 @@
     "symbol": "DAI"
   },
   {
-    "address": "0x12418783e860997eb99e8aCf682DF952F721cF62",
-    "chainId": 8453,
-    "decimals": 8,
-    "logoURI": "https://files.sablier.com/tokens/IBTC.png",
-    "name": "iBTC",
-    "symbol": "IBTC"
-  },
-  {
-    "address": "0x321725ee44CB4bfA544CF45a5A585b925d30A58C",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/GROW.png",
-    "name": "ValleyDAO",
-    "symbol": "GROW"
-  },
-  {
-    "address": "0x063D2DB6D348Fa5957b78B6141d144426486c68C",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/CAT.png",
-    "name": "SocioCat",
-    "symbol": "CAT"
-  },
-  {
-    "address": "0x7233062d88133B5402D39D62BFa23a1b6c8d0898",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/FORT.png",
-    "name": "Citadel",
-    "symbol": "FORT"
-  },
-  {
-    "address": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/AERO.png",
-    "name": "Aerodrome",
-    "symbol": "AERO"
-  },
-  {
-    "address": "0x60359A0DD148B18d5cF1Ddf8Aa1916221ED0cbCd",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/NFI.png",
-    "name": "NetherFi",
-    "symbol": "NFI"
-  },
-  {
-    "address": "0xcfB038913d2f93409019E4258244564ad4357Be9",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/GHZLI.png",
-    "name": "Ghozali 404",
-    "symbol": "GHZLI"
-  },
-  {
-    "address": "0xFD55f09328d7DcCc1C596dc981496546250d8804",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/LUCID.png",
-    "name": "Lucid Coin",
-    "symbol": "LUCID"
-  },
-  {
-    "address": "0x524A481f7f48EBbbeD7773aDCFa821880c537128",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/ZEROX.png",
-    "name": "0x",
-    "symbol": "0x"
-  },
-  {
     "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
     "chainId": 8453,
     "decimals": 18,
@@ -224,36 +200,12 @@
     "symbol": "DEGEN"
   },
   {
-    "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
+    "address": "0xe2B76f98fB5dC10A9Aed0F4A4a854De325740019",
     "chainId": 8453,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/MOLTEN.png",
-    "name": "Molten",
-    "symbol": "MOLTEN"
-  },
-  {
-    "address": "0x7130dC4F14C7F0F6A58162FA92ed0308E373bb51",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/FUKU.png",
-    "name": "Fuku Base",
-    "symbol": "FUKU"
-  },
-  {
-    "address": "0xDc6ad9b5F4257c620FB103226A19808f7Dd25BCc",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/JD.png",
-    "name": "Jungle Defense",
-    "symbol": "JD"
-  },
-  {
-    "address": "0x4B69EA52F8cb02b53613Fa1E24F2579176C44C57",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/RAZZ.png",
-    "name": "fun Consigliere",
-    "symbol": "RAZZ"
+    "logoURI": "https://files.sablier.com/tokens/DPHN.png",
+    "name": "Dolphin",
+    "symbol": "DPHN"
   },
   {
     "address": "0x9A86980D3625b4A6E69D8a4606D51cbc019e2002",
@@ -264,6 +216,38 @@
     "symbol": "FOMO"
   },
   {
+    "address": "0x7233062d88133B5402D39D62BFa23a1b6c8d0898",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/FORT.png",
+    "name": "Citadel",
+    "symbol": "FORT"
+  },
+  {
+    "address": "0x7130dC4F14C7F0F6A58162FA92ed0308E373bb51",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/FUKU.png",
+    "name": "Fuku Base",
+    "symbol": "FUKU"
+  },
+  {
+    "address": "0xcfB038913d2f93409019E4258244564ad4357Be9",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/GHZLI.png",
+    "name": "Ghozali 404",
+    "symbol": "GHZLI"
+  },
+  {
+    "address": "0x321725ee44CB4bfA544CF45a5A585b925d30A58C",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/GROW.png",
+    "name": "ValleyDAO",
+    "symbol": "GROW"
+  },
+  {
     "address": "0x0578d8A44db98B23BF096A382e016e29a5Ce0ffe",
     "chainId": 8453,
     "decimals": 18,
@@ -272,44 +256,108 @@
     "symbol": "HIGHER"
   },
   {
-    "address": "0xe0023E73aab4fE9a22f059a9d27E857E027eE3dc",
+    "address": "0x12418783e860997eb99e8aCf682DF952F721cF62",
     "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/RWAX.png",
-    "name": "Rwax Token",
-    "symbol": "RWAX"
+    "decimals": 8,
+    "logoURI": "https://files.sablier.com/tokens/IBTC.png",
+    "name": "iBTC",
+    "symbol": "IBTC"
   },
   {
-    "address": "0xcdE172dc5ffC46D228838446c57C1227e0B82049",
+    "address": "0x000096630066820566162C94874A776532705231",
     "chainId": 8453,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/BOOMER.png",
-    "name": "Boomer",
-    "symbol": "BOOMER"
+    "logoURI": "https://files.sablier.com/tokens/IDRISS.png",
+    "name": "IDRISS",
+    "symbol": "IDRISS"
   },
   {
-    "address": "0xFc60AA1fFCA50Ce08b3cDeC9626c0Bb9E9b09BeC",
+    "address": "0xba8cd87120aca631f59231f9fd6c5469bbee3440",
     "chainId": 8453,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/VIS.png",
-    "name": "Envision",
-    "symbol": "VIS"
+    "logoURI": "https://files.sablier.com/tokens/ITP.png",
+    "name": "Infinite Trading Protocol",
+    "symbol": "ITP"
   },
   {
-    "address": "0xDdf98aad8180c3E368467782CD07AE2E3E8d36A5",
+    "address": "0xDc6ad9b5F4257c620FB103226A19808f7Dd25BCc",
     "chainId": 8453,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/AM.png",
-    "name": "animated",
-    "symbol": "AM"
+    "logoURI": "https://files.sablier.com/tokens/JD.png",
+    "name": "Jungle Defense",
+    "symbol": "JD"
   },
   {
-    "address": "0xD3C68968137317a57a9bAbeacC7707Ec433548B4",
+    "address": "0x98d0baa52b2D063E780DE12F615f963Fe8537553",
     "chainId": 8453,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/SOCIAL.png",
-    "name": "Phavercoin",
-    "symbol": "SOCIAL"
+    "logoURI": "https://files.sablier.com/tokens/KAITO.png",
+    "name": "KAITO",
+    "symbol": "KAITO"
+  },
+  {
+    "address": "0xFD55f09328d7DcCc1C596dc981496546250d8804",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/LUCID.png",
+    "name": "Lucid Coin",
+    "symbol": "LUCID"
+  },
+  {
+    "address": "0xc734635CD30E882037C3f3De1EbCCF9fA9D27D9F",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/LVLY.png",
+    "name": "LyvelyToken",
+    "symbol": "LVLY"
+  },
+  {
+    "address": "0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/MAMO.png",
+    "name": "Mamo",
+    "symbol": "MAMO"
+  },
+  {
+    "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/MOLTEN.png",
+    "name": "Molten",
+    "symbol": "MOLTEN"
+  },
+  {
+    "address": "0xf5C83eA805e5aeFf5De24C7Da23eF246C2BF8Ec7",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/MONSTA.png",
+    "name": "Based Monsta",
+    "symbol": "MONSTA"
+  },
+  {
+    "address": "0x24c91E5E9eb13E72Db41EBC5816Af7f259647B07",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/MYU.png",
+    "name": "Myceliyou",
+    "symbol": "MYU"
+  },
+  {
+    "address": "0x314d7f9e2f55B430ef656FBB98A7635D43a2261E",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/NAYM.png",
+    "name": "Naym",
+    "symbol": "NAYM"
+  },
+  {
+    "address": "0x60359A0DD148B18d5cF1Ddf8Aa1916221ED0cbCd",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/NFI.png",
+    "name": "NetherFi",
+    "symbol": "NFI"
   },
   {
     "address": "0x25e1c298F100d7C600E9e44d46788C1Ebbd4f69B",
@@ -320,12 +368,20 @@
     "symbol": "P"
   },
   {
-    "address": "0x80f6bcedd3d4fa1035285affa30e38f464db3895",
+    "address": "0x0B3EAEAd748facDb9d943d3407011f16Eb17D0Cf",
     "chainId": 8453,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/BET.png",
-    "name": "BetBase",
-    "symbol": "BET"
+    "logoURI": "https://files.sablier.com/tokens/PMX.png",
+    "name": "Primex Finance",
+    "symbol": "PMX"
+  },
+  {
+    "address": "0x4B69EA52F8cb02b53613Fa1E24F2579176C44C57",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/RAZZ.png",
+    "name": "fun Consigliere",
+    "symbol": "RAZZ"
   },
   {
     "address": "0x1986Cc18D8eC757447254310D2604f85741aA732",
@@ -334,6 +390,38 @@
     "logoURI": "https://files.sablier.com/tokens/REWARD.png",
     "name": "Rewardable",
     "symbol": "REWARD"
+  },
+  {
+    "address": "0xe0023E73aab4fE9a22f059a9d27E857E027eE3dc",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/RWAX.png",
+    "name": "Rwax Token",
+    "symbol": "RWAX"
+  },
+  {
+    "address": "0xC729777d0470F30612B1564Fd96E8Dd26f5814E3",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SAPIEN.png",
+    "name": "Sapien",
+    "symbol": "SAPIEN"
+  },
+  {
+    "address": "0xa4f134de49D80e83D2dE6e73845c506BDB3b9D59",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SHADES.png",
+    "name": "SHADES",
+    "symbol": "SHADES"
+  },
+  {
+    "address": "0xD3C68968137317a57a9bAbeacC7707Ec433548B4",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SOCIAL.png",
+    "name": "Phavercoin",
+    "symbol": "SOCIAL"
   },
   {
     "address": "0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3",
@@ -360,116 +448,12 @@
     "symbol": "TIG"
   },
   {
-    "address": "0xc734635CD30E882037C3f3De1EbCCF9fA9D27D9F",
+    "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
     "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/LVLY.png",
-    "name": "LyvelyToken",
-    "symbol": "LVLY"
-  },
-  {
-    "address": "0x314d7f9e2f55B430ef656FBB98A7635D43a2261E",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/NAYM.png",
-    "name": "Naym",
-    "symbol": "NAYM"
-  },
-  {
-    "address": "0xef0fd52e65DdcDc201E2055a94D2aBff6fF10a7a",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/WANDER.png",
-    "name": "WanderCoin",
-    "symbol": "WANDER"
-  },
-  {
-    "address": "0xF56B3b3972F2f154555a0b62FF5A22b7b2A3C90B",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/ZAP.png",
-    "name": "ZAP",
-    "symbol": "ZAP"
-  },
-  {
-    "address": "0x76C71F1703Fbf19FFdcF3051E1e684Cb9934510f",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://aixcbcapital.com/wp-content/uploads/2025/01/logo-128.png",
-    "name": "aixCB by Virtuals",
-    "symbol": "AIXCB"
-  },
-  {
-    "address": "0x000096630066820566162C94874A776532705231",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/IDRISS.png",
-    "name": "IDRISS",
-    "symbol": "IDRISS"
-  },
-  {
-    "address": "0xf5C83eA805e5aeFf5De24C7Da23eF246C2BF8Ec7",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/MONSTA.png",
-    "name": "Based Monsta",
-    "symbol": "MONSTA"
-  },
-  {
-    "address": "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/USDS.png",
-    "name": "USDS Stablecoin",
-    "symbol": "USDS"
-  },
-  {
-    "address": "0xa4f134de49D80e83D2dE6e73845c506BDB3b9D59",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/SHADES.png",
-    "name": "SHADES",
-    "symbol": "SHADES"
-  },
-  {
-    "address": "0x767A739D1A152639e9Ea1D8c1BD55FDC5B217D7f",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/VEIL.png",
-    "name": "Veil Token",
-    "symbol": "VEIL"
-  },
-  {
-    "address": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/VVV.png",
-    "name": "Venice Token",
-    "symbol": "VVV"
-  },
-  {
-    "address": "0x0B3EAEAd748facDb9d943d3407011f16Eb17D0Cf",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/PMX.png",
-    "name": "Primex Finance",
-    "symbol": "PMX"
-  },
-  {
-    "address": "0x98d0baa52b2D063E780DE12F615f963Fe8537553",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/KAITO.png",
-    "name": "KAITO",
-    "symbol": "KAITO"
-  },
-  {
-    "address": "0x6C7ebB64E258F5712EEeC83CEaf41c3dcbb534B1",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/VAIN.png",
-    "name": "Vainguard by Virtuals",
-    "symbol": "VAIN"
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDC.png",
+    "name": "USD Base Coin",
+    "symbol": "USDbC"
   },
   {
     "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -480,52 +464,36 @@
     "symbol": "USDC"
   },
   {
-    "address": "0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
+    "address": "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
     "chainId": 8453,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/MAMO.png",
-    "name": "Mamo",
-    "symbol": "MAMO"
+    "logoURI": "https://files.sablier.com/tokens/USDS.png",
+    "name": "USDS Stablecoin",
+    "symbol": "USDS"
   },
   {
-    "address": "0xf43eB8De897Fbc7F2502483B2Bef7Bb9EA179229",
+    "address": "0x6C7ebB64E258F5712EEeC83CEaf41c3dcbb534B1",
     "chainId": 8453,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/ZEN.png",
-    "name": "Horizen",
-    "symbol": "ZEN"
+    "logoURI": "https://files.sablier.com/tokens/VAIN.png",
+    "name": "Vainguard by Virtuals",
+    "symbol": "VAIN"
   },
   {
-    "address": "0xC729777d0470F30612B1564Fd96E8Dd26f5814E3",
+    "address": "0x767A739D1A152639e9Ea1D8c1BD55FDC5B217D7f",
     "chainId": 8453,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/SAPIEN.png",
-    "name": "Sapien",
-    "symbol": "SAPIEN"
+    "logoURI": "https://files.sablier.com/tokens/VEIL.png",
+    "name": "Veil Token",
+    "symbol": "VEIL"
   },
   {
-    "address": "0x6C8c8e945C2CcB997B88259b2890Ba95f740dEbE",
+    "address": "0xFc60AA1fFCA50Ce08b3cDeC9626c0Bb9E9b09BeC",
     "chainId": 8453,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/AISPACE.png",
-    "name": "NuSHA by Virtuals",
-    "symbol": "AISPACE"
-  },
-  {
-    "address": "0xCfC8E8a4d2246dEC68115aE24aBbcA0d2B1E6bf2",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/BILLY.png",
-    "name": "Billy Bets by Virtuals",
-    "symbol": "BILLY"
-  },
-  {
-    "address": "0x39E34BdCb53d80c8fbf30D4632c644E4a6C24B9b",
-    "chainId": 8453,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/AEIA.png",
-    "name": "AEVIGRA",
-    "symbol": "AEIA"
+    "logoURI": "https://files.sablier.com/tokens/VIS.png",
+    "name": "Envision",
+    "symbol": "VIS"
   },
   {
     "address": "0x4e107a0000DB66f0E9Fd2039288Bf811dD1f9c74",
@@ -536,11 +504,43 @@
     "symbol": "VLR"
   },
   {
-    "address": "0x111123eA4Cee28CF010703593a8A2a3bbb91756C",
+    "address": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
     "chainId": 8453,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/ARA.png",
-    "name": "ARA",
-    "symbol": "ARA"
+    "logoURI": "https://files.sablier.com/tokens/VVV.png",
+    "name": "Venice Token",
+    "symbol": "VVV"
+  },
+  {
+    "address": "0xef0fd52e65DdcDc201E2055a94D2aBff6fF10a7a",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/WANDER.png",
+    "name": "WanderCoin",
+    "symbol": "WANDER"
+  },
+  {
+    "address": "0x4200000000000000000000000000000000000006",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+  },
+  {
+    "address": "0xF56B3b3972F2f154555a0b62FF5A22b7b2A3C90B",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ZAP.png",
+    "name": "ZAP",
+    "symbol": "ZAP"
+  },
+  {
+    "address": "0xf43eB8De897Fbc7F2502483B2Bef7Bb9EA179229",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ZEN.png",
+    "name": "Horizen",
+    "symbol": "ZEN"
   }
 ]

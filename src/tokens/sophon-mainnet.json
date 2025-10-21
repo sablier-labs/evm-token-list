@@ -1,5 +1,13 @@
 [
   {
+    "address": "0xeCcbb9360d235548473Cb8C752735F68e652439B",
+    "chainId": 50104,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SDAI.png",
+    "name": "Savings Dai",
+    "symbol": "SDAI"
+  },
+  {
     "address": "0x6386dA73545ae4E2B2E0393688fA8B65Bb9a7169",
     "chainId": 50104,
     "decimals": 6,
@@ -14,14 +22,6 @@
     "logoURI": "https://files.sablier.com/tokens/WBTC.png",
     "name": "Wrapped BTC",
     "symbol": "WBTC"
-  },
-  {
-    "address": "0xeCcbb9360d235548473Cb8C752735F68e652439B",
-    "chainId": 50104,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/SDAI.png",
-    "name": "Savings Dai",
-    "symbol": "SDAI"
   },
   {
     "address": "0x2b1A859dE6A55c553520D7780Bc5805712B128F9",

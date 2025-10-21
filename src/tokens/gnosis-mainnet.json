@@ -16,14 +16,6 @@
     "symbol": "COW"
   },
   {
-    "address": "0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2",
-    "chainId": 100,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/LINK.png",
-    "name": "ChainLink Token",
-    "symbol": "LINK"
-  },
-  {
     "address": "0x44fA8E6f47987339850636F88629646662444217",
     "chainId": 100,
     "decimals": 18,
@@ -38,6 +30,14 @@
     "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png",
     "name": "Gnosis Token",
     "symbol": "GNO"
+  },
+  {
+    "address": "0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2",
+    "chainId": 100,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/LINK.png",
+    "name": "ChainLink Token",
+    "symbol": "LINK"
   },
   {
     "address": "0x0AA1e96D2a46Ec6beB2923dE1E61Addf5F5f1dce",
@@ -56,14 +56,6 @@
     "symbol": "SDAI"
   },
   {
-    "address": "0x4ECaBa5870353805a9F068101A40E0f32ed605C6",
-    "chainId": 100,
-    "decimals": 6,
-    "logoURI": "https://files.sablier.com/tokens/USDT.png",
-    "name": "Tether USD",
-    "symbol": "USDT"
-  },
-  {
     "address": "0x4537e328Bf7e4eFA29D05CAeA260D7fE26af9D74",
     "chainId": 100,
     "decimals": 18,
@@ -78,6 +70,14 @@
     "logoURI": "https://files.sablier.com/tokens/USDC.png",
     "name": "USD Coin",
     "symbol": "USDC"
+  },
+  {
+    "address": "0x4ECaBa5870353805a9F068101A40E0f32ed605C6",
+    "chainId": 100,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDT.png",
+    "name": "Tether USD",
+    "symbol": "USDT"
   },
   {
     "address": "0x8e5bBbb09Ed1ebdE8674Cda39A0c169401db4252",

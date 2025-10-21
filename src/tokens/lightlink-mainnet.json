@@ -16,6 +16,14 @@
     "symbol": "DAI.e"
   },
   {
+    "address": "0x04E4929B89fc1483B6C6839c4455AbE1C1Caa811",
+    "chainId": 1890,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ELTK.png",
+    "name": "Elektrik",
+    "symbol": "ELTK.e"
+  },
+  {
     "address": "0xd9d7123552fA2bEdB2348bB562576D67f6E8e96E",
     "chainId": 1890,
     "decimals": 18,
@@ -38,13 +46,5 @@
     "logoURI": "https://files.sablier.com/tokens/WETH.png",
     "name": "Wrapped Ether",
     "symbol": "WETH"
-  },
-  {
-    "address": "0x04E4929B89fc1483B6C6839c4455AbE1C1Caa811",
-    "chainId": 1890,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/ELTK.png",
-    "name": "Elektrik",
-    "symbol": "ELTK.e"
   }
 ]

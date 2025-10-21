@@ -1,5 +1,45 @@
 [
   {
+    "address": "0x880A3Ae90f989030708A529ABd841589053c1dC2",
+    "chainId": 59144,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/BEAVER.png",
+    "name": "Beaver Coin",
+    "symbol": "BEAVER"
+  },
+  {
+    "address": "0x464946f3f004b37014D272d6195aC131Eb54B94d",
+    "chainId": 59144,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/CARROT.png",
+    "name": "Carrot",
+    "symbol": "CARROT"
+  },
+  {
+    "address": "0xaCb54d07cA167934F57F829BeE2cC665e1A5ebEF",
+    "chainId": 59144,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/CROAK.png",
+    "name": "CROAK",
+    "symbol": "CROAK"
+  },
+  {
+    "address": "0x4af15ec2a0bd43db75dd04e62faa3b8ef36b00d5",
+    "chainId": 59144,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/DAI.png",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI"
+  },
+  {
+    "address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
+    "chainId": 59144,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/LINEA.png",
+    "name": "Linea",
+    "symbol": "LINEA"
+  },
+  {
     "address": "0x34B5c2936DAe6698e54781EDb8B1E69A2C2873F8",
     "chainId": 59144,
     "decimals": 18,
@@ -8,12 +48,12 @@
     "symbol": "RYZE"
   },
   {
-    "address": "0x880A3Ae90f989030708A529ABd841589053c1dC2",
+    "address": "0x67454b41bAF8D29751Cc64f60E3C62B5634567A4",
     "chainId": 59144,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/BEAVER.png",
-    "name": "Beaver Coin",
-    "symbol": "BEAVER"
+    "logoURI": "https://files.sablier.com/tokens/TBAG.png",
+    "name": "TBAG",
+    "symbol": "TBAG"
   },
   {
     "address": "0x176211869ca2b568f2a7d4ee941e073a821ee1ff",
@@ -38,45 +78,5 @@
     "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
     "name": "Wrapped Ether",
     "symbol": "WETH"
-  },
-  {
-    "address": "0x4af15ec2a0bd43db75dd04e62faa3b8ef36b00d5",
-    "chainId": 59144,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/DAI.png",
-    "name": "Dai Stablecoin",
-    "symbol": "DAI"
-  },
-  {
-    "address": "0xaCb54d07cA167934F57F829BeE2cC665e1A5ebEF",
-    "chainId": 59144,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/CROAK.png",
-    "name": "CROAK",
-    "symbol": "CROAK"
-  },
-  {
-    "address": "0x464946f3f004b37014D272d6195aC131Eb54B94d",
-    "chainId": 59144,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/CARROT.png",
-    "name": "Carrot",
-    "symbol": "CARROT"
-  },
-  {
-    "address": "0x67454b41bAF8D29751Cc64f60E3C62B5634567A4",
-    "chainId": 59144,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/TBAG.png",
-    "name": "TBAG",
-    "symbol": "TBAG"
-  },
-  {
-    "address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
-    "chainId": 59144,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/LINEA.png",
-    "name": "Linea",
-    "symbol": "LINEA"
   }
 ]

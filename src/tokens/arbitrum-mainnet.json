@@ -8,44 +8,12 @@
     "symbol": "ARB"
   },
   {
-    "address": "0x7712da72127d5dD213B621497D6E4899d5989e5C",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/RYZE.png",
-    "name": "Aryze",
-    "symbol": "RYZE"
-  },
-  {
-    "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
-    "chainId": 42161,
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/assets/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8/logo.png",
-    "name": "Bridged USDC",
-    "symbol": "USDC.e"
-  },
-  {
-    "address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/LINK.png",
-    "name": "ChainLink Token",
-    "symbol": "LINK"
-  },
-  {
     "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/assets/0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1/logo.png",
     "name": "Dai Stablecoin",
     "symbol": "DAI"
-  },
-  {
-    "address": "0x050c24dbf1eec17babe5fc585f06116a259cc77a",
-    "chainId": 42161,
-    "decimals": 8,
-    "logoURI": "https://files.sablier.com/tokens/IBTC.png",
-    "name": "iBTC",
-    "symbol": "IBTC"
   },
   {
     "address": "0xDFB8BE6F8c87f74295A87de951974362CedCFA30",
@@ -56,20 +24,12 @@
     "symbol": "EMC"
   },
   {
-    "address": "0xF9a76af0bf7a8D4718fb7956a6873eAA64bbD0D9",
+    "address": "0xA533f744B179F2431f5395978e391107DC76e103",
     "chainId": 42161,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/HACHI.png",
-    "name": "Akita DAO",
-    "symbol": "HACHI"
-  },
-  {
-    "address": "0x903CA00944D0b51e50D9F4fC96167c89F211542A",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/FIN.png",
-    "name": "Poolshark",
-    "symbol": "FIN"
+    "logoURI": "https://files.sablier.com/tokens/EPMX.png",
+    "name": "Early Primex",
+    "symbol": "ePMX"
   },
   {
     "address": "0x3269a3C00AB86c753856fD135d97b87FACB0d848",
@@ -80,12 +40,52 @@
     "symbol": "FFM"
   },
   {
+    "address": "0x903CA00944D0b51e50D9F4fC96167c89F211542A",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/FIN.png",
+    "name": "Poolshark",
+    "symbol": "FIN"
+  },
+  {
+    "address": "0xF9a76af0bf7a8D4718fb7956a6873eAA64bbD0D9",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/HACHI.png",
+    "name": "Akita DAO",
+    "symbol": "HACHI"
+  },
+  {
+    "address": "0x050c24dbf1eec17babe5fc585f06116a259cc77a",
+    "chainId": 42161,
+    "decimals": 8,
+    "logoURI": "https://files.sablier.com/tokens/IBTC.png",
+    "name": "iBTC",
+    "symbol": "IBTC"
+  },
+  {
     "address": "0xadf5DD3E51bF28aB4F07e684eCF5d00691818790",
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x111111517e4929D3dcbdfa7CCe55d30d4B6BC4d6/logo.png",
     "name": "Ichi",
     "symbol": "ICHI"
+  },
+  {
+    "address": "0x999FAF0AF2fF109938eeFE6A7BF91CA56f0D07e1",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/LDY.png",
+    "name": "Ledgity Token",
+    "symbol": "LDY"
+  },
+  {
+    "address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/LINK.png",
+    "name": "ChainLink Token",
+    "symbol": "LINK"
   },
   {
     "address": "0x3F56e0c36d275367b8C502090EDF38289b3dEa0d",
@@ -96,12 +96,12 @@
     "symbol": "MAI"
   },
   {
-    "address": "0x330bD769382cFc6d50175903434CCC8D206DCAE5",
+    "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
     "chainId": 42161,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/PNK.png",
-    "name": "Pinakion",
-    "symbol": "PNK"
+    "logoURI": "https://files.sablier.com/tokens/MOLTEN.png",
+    "name": "Molten",
+    "symbol": "MOLTEN"
   },
   {
     "address": "0x51318B7D00db7ACc4026C88c3952B66278B6A67F",
@@ -110,6 +110,22 @@
     "logoURI": "https://files.sablier.com/tokens/PLS.png",
     "name": "Plutus",
     "symbol": "PLS"
+  },
+  {
+    "address": "0x0B3EAEAd748facDb9d943d3407011f16Eb17D0Cf",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/PMX.png",
+    "name": "Primex Finance",
+    "symbol": "PMX"
+  },
+  {
+    "address": "0x330bD769382cFc6d50175903434CCC8D206DCAE5",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/PNK.png",
+    "name": "Pinakion",
+    "symbol": "PNK"
   },
   {
     "address": "0xB9C8F0d3254007eE4b98970b94544e473Cd610EC",
@@ -136,6 +152,14 @@
     "symbol": "RDNT"
   },
   {
+    "address": "0x83e5Ecd192eAc043B0674A16EEDf96176726A159",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/RED.png",
+    "name": "Redacted",
+    "symbol": "RED"
+  },
+  {
     "address": "0x6dD51520825b170c32ef322eaDcbd53594929a8a",
     "chainId": 42161,
     "decimals": 18,
@@ -152,6 +176,14 @@
     "symbol": "ROSNET"
   },
   {
+    "address": "0x7712da72127d5dD213B621497D6E4899d5989e5C",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/RYZE.png",
+    "name": "Aryze",
+    "symbol": "RYZE"
+  },
+  {
     "address": "0xe47ba52f326806559c1deC7ddd997F6957d0317D",
     "chainId": 42161,
     "decimals": 18,
@@ -160,12 +192,28 @@
     "symbol": "SHELL"
   },
   {
-    "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "address": "0x577Fd586c9E6BA7f2E85E025D5824DBE19896656",
     "chainId": 42161,
-    "decimals": 6,
-    "logoURI": "https://files.sablier.com/tokens/USDT.png",
-    "name": "Tether USD",
-    "symbol": "USDT"
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SYNO.png",
+    "name": "Synonym Finance",
+    "symbol": "SYNO"
+  },
+  {
+    "address": "0x0721b3C9f19cfeF1d622C918DcD431960f35E060",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/SYNTH.png",
+    "name": "SYNTHR",
+    "symbol": "SYNTH"
+  },
+  {
+    "address": "0xC760F9782F8ceA5B06D862574464729537159966",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/TANGO.png",
+    "name": "Contango",
+    "symbol": "TANGO"
   },
   {
     "address": "0xb56C29413AF8778977093B9B4947efEeA7136C36",
@@ -184,12 +232,44 @@
     "symbol": "USDC"
   },
   {
+    "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "chainId": 42161,
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/assets/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8/logo.png",
+    "name": "Bridged USDC",
+    "symbol": "USDC.e"
+  },
+  {
+    "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "chainId": 42161,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDT.png",
+    "name": "Tether USD",
+    "symbol": "USDT"
+  },
+  {
+    "address": "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/WAGMI.png",
+    "name": "Wagmi",
+    "symbol": "WAGMI"
+  },
+  {
     "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
     "chainId": 42161,
     "decimals": 8,
     "logoURI": "https://files.sablier.com/tokens/WBTC.png",
     "name": "Wrapped BTC",
     "symbol": "WBTC"
+  },
+  {
+    "address": "0xcC0Abb65c344639Ee78D76cd507027e5C1bb8135",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/WEAVE.png",
+    "name": "Weave",
+    "symbol": "WEAVE"
   },
   {
     "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
@@ -208,91 +288,11 @@
     "symbol": "wstETH"
   },
   {
-    "address": "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/WAGMI.png",
-    "name": "Wagmi",
-    "symbol": "WAGMI"
-  },
-  {
-    "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/MOLTEN.png",
-    "name": "Molten",
-    "symbol": "MOLTEN"
-  },
-  {
-    "address": "0x999FAF0AF2fF109938eeFE6A7BF91CA56f0D07e1",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/LDY.png",
-    "name": "Ledgity Token",
-    "symbol": "LDY"
-  },
-  {
-    "address": "0x83e5Ecd192eAc043B0674A16EEDf96176726A159",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/RED.png",
-    "name": "Redacted",
-    "symbol": "RED"
-  },
-  {
-    "address": "0x577Fd586c9E6BA7f2E85E025D5824DBE19896656",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/SYNO.png",
-    "name": "Synonym Finance",
-    "symbol": "SYNO"
-  },
-  {
-    "address": "0xcC0Abb65c344639Ee78D76cd507027e5C1bb8135",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/WEAVE.png",
-    "name": "Weave",
-    "symbol": "WEAVE"
-  },
-  {
-    "address": "0xA533f744B179F2431f5395978e391107DC76e103",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/EPMX.png",
-    "name": "Early Primex",
-    "symbol": "ePMX"
-  },
-  {
-    "address": "0x0721b3C9f19cfeF1d622C918DcD431960f35E060",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/SYNTH.png",
-    "name": "SYNTHR",
-    "symbol": "SYNTH"
-  },
-  {
     "address": "0x93FA0B88C0C78e45980Fa74cdd87469311b7B3E4",
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "https://files.sablier.com/tokens/XBG.png",
     "name": "XBorg",
     "symbol": "XBG"
-  },
-  {
-    "address": "0x0B3EAEAd748facDb9d943d3407011f16Eb17D0Cf",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/PMX.png",
-    "name": "Primex Finance",
-    "symbol": "PMX"
-  },
-  {
-    "address": "0xC760F9782F8ceA5B06D862574464729537159966",
-    "chainId": 42161,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/TANGO.png",
-    "name": "Contango",
-    "symbol": "TANGO"
   }
 ]

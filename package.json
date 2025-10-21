@@ -42,6 +42,7 @@
     "format": "bun run biome:write && bun run prettier:write",
     "prepublishOnly": "bun run test && bun run build",
     "prettier:check": "prettier --cache --check \"**/*.{md,yml}\"",
+    "sort": "node scripts/sort-tokens.mjs",
     "prettier:write": "prettier --cache --write \"**/*.{md,yml}\"",
     "test": "mocha"
   }

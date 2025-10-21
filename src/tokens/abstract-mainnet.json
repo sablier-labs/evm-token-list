@@ -1,11 +1,11 @@
 [
   {
-    "address": "0x3439153EB7AF838Ad19d56E1571FBD09333C2809",
+    "address": "0x9eBe3A824Ca958e4b3Da772D2065518F009CBa62",
     "chainId": 2741,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/WETH.png",
-    "name": "Wrapped Ether",
-    "symbol": "WETH"
+    "logoURI": "https://files.sablier.com/tokens/PENGU.png",
+    "name": "Pudgy Penguins",
+    "symbol": "PENGU"
   },
   {
     "address": "0x84A71ccD554Cc1b02749b35d22F684CC8ec987e1",
@@ -24,11 +24,11 @@
     "symbol": "USDT"
   },
   {
-    "address": "0x9eBe3A824Ca958e4b3Da772D2065518F009CBa62",
+    "address": "0x3439153EB7AF838Ad19d56E1571FBD09333C2809",
     "chainId": 2741,
     "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/PENGU.png",
-    "name": "Pudgy Penguins",
-    "symbol": "PENGU"
+    "logoURI": "https://files.sablier.com/tokens/WETH.png",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
   }
 ]

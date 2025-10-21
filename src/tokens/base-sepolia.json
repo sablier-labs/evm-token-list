@@ -1,18 +1,18 @@
 [
   {
-    "address": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
-    "chainId": 84532,
-    "decimals": 6,
-    "logoURI": "https://files.sablier.com/tokens/USDC.png",
-    "name": "USDC",
-    "symbol": "USDC"
-  },
-  {
     "address": "0x3366feee9bbe5b830df9e1fa743828732b13959a",
     "chainId": 84532,
     "decimals": 18,
     "logoURI": "https://files.sablier.com/tokens/TIG.png",
     "name": "The Innovation Game",
     "symbol": "TIG"
+  },
+  {
+    "address": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+    "chainId": 84532,
+    "decimals": 6,
+    "logoURI": "https://files.sablier.com/tokens/USDC.png",
+    "name": "USDC",
+    "symbol": "USDC"
   }
 ]

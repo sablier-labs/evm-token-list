@@ -1,5 +1,13 @@
 [
   {
+    "address": "0x688da80Dfe2916c0a0Aa360323E52Aa5881AdB78",
+    "chainId": 478,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/FORM.png",
+    "name": "Form",
+    "symbol": "FORM"
+  },
+  {
     "address": "0xFBf489bb4783D4B1B2e7D07ba39873Fb8068507D",
     "chainId": 478,
     "decimals": 6,
@@ -14,13 +22,5 @@
     "logoURI": "https://files.sablier.com/tokens/WETH.png",
     "name": "Wrapped Ether",
     "symbol": "WETH"
-  },
-  {
-    "address": "0x688da80Dfe2916c0a0Aa360323E52Aa5881AdB78",
-    "chainId": 478,
-    "decimals": 18,
-    "logoURI": "https://files.sablier.com/tokens/FORM.png",
-    "name": "Form",
-    "symbol": "FORM"
   }
 ]
