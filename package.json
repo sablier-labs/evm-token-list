@@ -36,7 +36,7 @@
   "scripts": {
     "biome:check": "biome check .",
     "biome:write": "biome check --write .",
-    "build": "rm -rf build/tokenlist.json && node src/write.js > build/tokenlist.json",
+    "build": "rm -rf build/tokenlist.json && node src/write.mjs > build/tokenlist.json",
     "clean": "rm -rf build/tokenlist.json",
     "check": "bun run biome:check && bun run prettier:check",
     "format": "bun run biome:write && bun run prettier:write",
