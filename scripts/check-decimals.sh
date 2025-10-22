@@ -17,21 +17,27 @@ fi
 for file in src/tokens/*.json; do
   json_objects=$(cat "$file")
 
-  # Extract the filename and replace '-' with '_'.
+  # Extract the network name for display purposes.
   network=$(basename "$file" .json | tr '-' '_' | tr '[:lower:]' '[:upper:]')
 
   echo -n "$network tokens list: "
 
-  # Construct the RPC URL variable name from filename.
-  rpc_url_var="${network}_RPC_URL"
+  # Extract the chainId from the first token in the JSON file.
+  chain_id=$(echo "$json_objects" | jq -r '.[0].chainId')
 
-  # Load the RPC URL from the environment variable or default to empty string if not found.
-  rpc_url=${!rpc_url_var:-}
-
-  if [ -z "$rpc_url" ]; then
-    echo -e "🟡 missing RPC endpoint."
+  if [ -z "$chain_id" ] || [ "$chain_id" = "null" ]; then
+    echo -e "🟡 missing chainId in token file."
     continue
   fi
+
+  # Check if ROUTEMESH_API_KEY is set.
+  if [ -z "$ROUTEMESH_API_KEY" ]; then
+    echo -e "🟡 missing ROUTEMESH_API_KEY."
+    continue
+  fi
+
+  # Generate RPC URL using RouteMesh.
+  rpc_url="https://lb.routeme.sh/rpc/${chain_id}/${ROUTEMESH_API_KEY}"
 
   # Loop through JSON objects and extract address and token decimals.
   echo "$json_objects" | jq -c '.[]' | while read -r row; do
