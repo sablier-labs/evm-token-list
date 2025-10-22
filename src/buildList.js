@@ -29,7 +29,6 @@ const sophonMainnet = require("./tokens/sophon-mainnet.json");
 const sonicMainnet = require("./tokens/sonic-mainnet.json");
 const superseedMainnet = require("./tokens/superseed-mainnet.json");
 const tangleMainnet = require("./tokens/tangle-mainnet.json");
-const ultraMainnet = require("./tokens/ultra-mainnet.json");
 const unichainMainnet = require("./tokens/unichain-mainnet.json");
 const xdcMainnet = require("./tokens/xdc-mainnet.json");
 const zksyncMainnet = require("./tokens/zksync-mainnet.json");
@@ -72,7 +71,6 @@ module.exports = function buildList() {
       ...sophonMainnet,
       ...superseedMainnet,
       ...tangleMainnet,
-      ...ultraMainnet,
       ...unichainMainnet,
       ...xdcMainnet,
       ...zksyncMainnet,
