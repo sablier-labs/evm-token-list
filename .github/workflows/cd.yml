@@ -29,8 +29,7 @@ jobs:
   test-decimals:
     uses: "./.github/workflows/ci-decimals.yml"
     secrets:
-      API_KEY_INFURA: ${{ secrets.API_KEY_INFURA }}
-      ROUTEME_API_KEY: ${{ secrets.ROUTEME_API_KEY }}
+      ROUTEMESH_API_KEY: ${{ secrets.ROUTEMESH_API_KEY }}
 
   # Deploy to GitHub Pages, IPFS, and Cloudflare Web3 Gateway
   deploy:

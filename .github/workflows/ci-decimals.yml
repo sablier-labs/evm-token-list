@@ -2,38 +2,7 @@
 name: "CI Token Decimals"
 
 env:
-  ABSTRACT_MAINNET_RPC_URL: "https://api.mainnet.abs.xyz"
-  ARBITRUM_MAINNET_RPC_URL: "https://arbitrum-mainnet.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
-  AVALANCHE_MAINNET_RPC_URL: "https://avalanche-mainnet.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
-  BASE_MAINNET_RPC_URL: "https://base-mainnet.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
-  BASE_SEPOLIA_RPC_URL: "https://base-sepolia.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
-  BERACHAIN_MAINNET_RPC_URL: "https://rpc.berachain.com"
-  BLAST_MAINNET_RPC_URL: "https://blast-mainnet.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
-  BSC_MAINNET_RPC_URL: "https://bsc-mainnet.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
-  CHILIZ_MAINNET_RPC_URL: "https://chiliz.publicnode.com"
-  ETHEREUM_MAINNET_RPC_URL: "https://mainnet.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
-  ETHEREUM_SEPOLIA_RPC_URL: "https://sepolia.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
-  FORM_MAINNET_RPC_URL: "https://form.calderachain.xyz/http"
-  GNOSIS_MAINNET_RPC_URL: "https://gnosis-rpc.publicnode.com"
-  HYPEREVM_MAINNET_RPC_URL: "https://rpc.hyperliquid.xyz/evm"
-  IOTEX_MAINNET_RPC_URL: "https://iotex-network.rpc.thirdweb.com"
-  LIGHTLINK_MAINNET_RPC_URL: "https://replicator.phoenix.lightlink.io/rpc/v1"
-  LINEA_MAINNET_RPC_URL: "https://linea-mainnet.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
-  MODE_MAINNET_RPC_URL: "https://mode.drpc.org"
-  MORPH_MAINNET_RPC_URL: "https://rpc-quicknode.morphl2.io"
-  OPTIMISM_MAINNET_RPC_URL: "https://optimism-mainnet.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
-  POLYGON_MAINNET_RPC_URL: "https://polygon-mainnet.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
-  RONIN_MAINNET_RPC_URL: "https://ronin.drpc.org"
-  RONIN_TESTNET_RPC_URL: "https://saigon-testnet.roninchain.com/rpc"
-  SCROLL_MAINNET_RPC_URL: "https://scroll-mainnet.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
-  SEI_MAINNET_RPC_URL: "https://lb.routeme.sh/rpc/1329/${{ secrets.ROUTEME_API_KEY }}"
-  SONIC_MAINNET_RPC_URL: "https://rpc.soniclabs.com"
-  SOPHON_MAINNET_RPC_URL: "https://rpc.sophon.xyz"
-  SUPERSEED_MAINNET_RPC_URL: "https://mainnet.superseed.xyz"
-  TANGLE_MAINNET_RPC_URL: "https://rpc.tangle.tools"
-  UNICHAIN_MAINNET_RPC_URL: "https://lb.routeme.sh/rpc/130/${{ secrets.ROUTEME_API_KEY }}"
-  XDC_MAINNET_RPC_URL: "https://rpc.xinfin.network"
-  ZKSYNC_MAINNET_RPC_URL: "https://zksync-mainnet.infura.io/v3/${{ secrets.API_KEY_INFURA }}"
+  ROUTEMESH_API_KEY: "${{ secrets.ROUTEMESH_API_KEY }}"
 
 on:
   # Any pull request activity (open, synchronize, reopen)
@@ -44,9 +13,7 @@ on:
   # When called from another workflow
   workflow_call:
     secrets:
-      API_KEY_INFURA:
-        required: true
-      ROUTEME_API_KEY:
+      ROUTEMESH_API_KEY:
         required: true
 
 jobs:
