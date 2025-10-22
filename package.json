@@ -45,5 +45,9 @@
     "sort": "node scripts/sort-tokens.mjs",
     "prettier:write": "prettier --cache --write \"**/*.{md,yml}\"",
     "test": "mocha"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3"
   }
 }

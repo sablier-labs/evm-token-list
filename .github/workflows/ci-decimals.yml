@@ -23,9 +23,16 @@ jobs:
       - name: "Check out the repo"
         uses: "actions/checkout@v4"
 
+      - name: "Install Bun"
+        uses: "oven-sh/setup-bun@v2"
+        with:
+          bun-version: "latest"
+
+      - name: "Install the Node.js dependencies"
+        run: "bun install --frozen-lockfile"
+
       - name: "Check token decimals"
-        run: "./scripts/check-decimals.sh"
-        shell: "bash"
+        run: "node scripts/check-decimals.mjs"
 
       - name: "Add summary"
         run: |
