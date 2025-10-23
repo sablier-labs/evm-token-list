@@ -542,5 +542,13 @@
     "logoURI": "https://files.sablier.com/tokens/ZEN.png",
     "name": "Horizen",
     "symbol": "ZEN"
+  },
+  {
+    "address": "0xC44141a684f6AA4E36cD9264ab55550B03C88643",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/ETHY.png",
+    "name": "Ethy AI by Virtuals",
+    "symbol": "ETHY"
   }
 ]
