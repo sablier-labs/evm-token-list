@@ -2510,5 +2510,13 @@
     "logoURI": "https://files.sablier.com/tokens/ZRS.png",
     "name": "Zaros Finance",
     "symbol": "ZRS"
+  },
+  {
+    "address": "0x38778E6d4d0dbE9bEceF3aE8B938570209efa48B",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://files.sablier.com/tokens/PAST.png",
+    "name": "Punk Auction Strategy Token",
+    "symbol": "PAST"
   }
 ]
